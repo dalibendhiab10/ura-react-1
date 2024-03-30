@@ -1,7 +1,7 @@
-const Contacts = () => (
-    <p>
-      aaaaaaaaaaaaaaaaasbaaaaaaa
-    </p>
+import TabsBasic from "../components/Tabs"
+
+const Contacts = () =>(
+    <TabsBasic/>
   )
   
   export default Contacts

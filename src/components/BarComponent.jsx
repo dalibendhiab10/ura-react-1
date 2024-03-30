@@ -15,7 +15,7 @@ function Bar() {
         <Router>
             <div>
                 <nav>
-                    <ul>
+                    <ul className="flex space-x-6">
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">About</Link></li>
                         <li><Link to="/contacts">Contact</Link></li>

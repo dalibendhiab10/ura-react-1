@@ -1,3 +1,4 @@
+import { tailwindConfig } from '@storefront-ui/react/tailwind-config';
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
