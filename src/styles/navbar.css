@@ -1,0 +1,9 @@
+.navbar{
+    height: 92px;
+    padding: 20px 300px 18px 300px;
+    gap: 0px;
+    border-radius: 0px 0px 50px 50px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    background: #35A080;
+}

@@ -15,12 +15,17 @@ function Bar() {
     
         <Router>
             <div>
-                <nav>
-                    <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/contacts">Contact</Link></li>
-                    </ul>
+                <nav className="navbar">
+                    <img src="./logo crum.svg" alt="logo" className="w-[114.45px] h-[35px]" />
+                    <div className='grid grid-cols-2 space-x-6'>
+                        <ul className='text-nav text-white  flex flex-row space-x-[29px]'>                       
+                            <li><Link to="/contacts" >Products</Link></li>
+                            <li><Link to="/about">Raw Materials</Link></li>
+                            <li><Link to="/about">Our Process</Link></li>
+                            <li><Link to="/contacts">Company</Link></li>
+                        </ul>
+                        <button className="bg-[#FFA800] text-white rounded-2xl ">Contact Us</button>
+                    </div>
                 </nav>
 
                 <main>
