@@ -1,4 +1,4 @@
-import TabsBasic from "../components/Tabs"
+import TabsBasic from "../../components/Tabs"
 
 const Contacts = () =>(
     <TabsBasic/>

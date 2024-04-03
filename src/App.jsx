@@ -1,11 +1,10 @@
-import Bar from './components/BarComponent';
+import Bar from '../components/BarComponent';
 function App() {
 
   return (
-    <>
-      <Bar />
-
-    </>
+    <div>
+      <Bar/>
+    </div>
   );
 }
 
