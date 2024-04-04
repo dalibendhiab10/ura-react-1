@@ -1,7 +1,7 @@
 
 const Home = () => (
   <p>
-    home works!
+
   </p>
 )
 

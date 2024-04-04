@@ -1,7 +1,7 @@
 
 const About = () => (
   <p>
-    aaaaaaaaaaaaaaaaa works!
+
   </p>
 )
 

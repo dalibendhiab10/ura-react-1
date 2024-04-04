@@ -11,9 +11,6 @@ export default {
         'main-color' : '#35A080',
         'white': '#FFFFFF',
       },
-      fontSize: {
-        'nav': ['14px','10px'],
-      },
       extend:{
       },
     extend: {},

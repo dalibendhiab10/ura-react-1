@@ -1,9 +1,11 @@
 import Bar from '../components/BarComponent';
+import Products from '../components/productcard';
 function App() {
 
   return (
-    <div>
-      <Bar/>
+    <div className=''>
+      <Bar />
+      {/* <Products /> */}
     </div>
   );
 }

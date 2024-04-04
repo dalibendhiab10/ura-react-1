@@ -1,7 +1,8 @@
 import TabsBasic from "../../components/Tabs"
 
 const Contacts = () =>(
-    <TabsBasic/>
+  <></> 
+  // <TabsBasic/>
   )
   
   export default Contacts

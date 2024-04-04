@@ -1,9 +1,150 @@
+@keyframes drop {
+        0% { transform: translateY(-60%); opacity: 1; }
+        100% { transform: translateY(0); opacity: 1; }
+}
+@keyframes backdrop{
+    0% {opacity: 0;}
+    100% { opacity: 0.5;}
+}
+@keyframes border-animation{
+    0%{border-radius: 0px 0px 35px 35px}
+    100%{border-radius: 0px}
+}
+@keyframes backdrop-blur{
+    0%{backdrop-filter: blur(0px);}
+    100%{backdrop-filter: blur(100px);}
+}
+.body {
+    height:100vh;
+    overflow-y: hidden; /* Hide scrollbars */
+  }
+
 .navbar{
-    height: 92px;
-    padding: 20px 300px 18px 300px;
+    position: relative;
+    z-index: 1;
+    /* padding: 20px 300px 18px 300px;
+    gap: 0px; */
+    border-radius: 0px 0px 35px 35px;
+    transition :border-radius 0px 0px 35px 35px;
+    /* border: 0px 0px 1px 0px;
+    opacity: 0px; */
+    background: #35A080;
+    
+}
+.product-menu{
+    width: 1920px;
+    height: 256px;
+    top: 92px;
+    padding: 40px 299px 40px 300px;
     gap: 0px;
-    border-radius: 0px 0px 50px 50px;
+    border-radius: 0px 0px 80px 80px;
     border: 0px 0px 1px 0px;
     opacity: 0px;
+    background-color: #35A080;
+    border-bottom: 1px solid #72BDA7;
+    position: relative;
+    z-index: -1;
+    top : 40%;
+    animation: drop 0.5s ease-out;
+}
+.navbar-toggle{
+    position: relative;
+    /* padding: 20px 300px 18px 300px;
+    gap: 0px; */
+    /* border: 0px 0px 1px 0px;
+    opacity: 0px; */
+    animation: border-animation;
     background: #35A080;
+}
+.navbar-text{
+    /* font-family: Urbanist; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 10px;
+    text-align: left;
+}
+.backdrop-div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1920px;
+    z-index: -2;
+    /* animation: backdrop 0.6s ease-out;
+    animation: backdrop-blur 0.5s ease-out; */
+    /* opacity: 0.5; */
+}
+
+.backdrop-div2{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1920px;
+    z-index: -3;
+    background-color: black;
+    /* animation: backdrop 0.6s ease-out;
+    animation: backdrop-blur 0.5s ease-out; */
+    opacity: 0.3; 
+}
+
+.page-content{
+    position: relative;
+    z-index: -10;
+}
+.button-contact{
+    width: Hug (168px)px;
+    height: Hug (50px)px;
+    gap: 10px;
+    opacity: 0px;
+    
+
+}
+.product-card-menu{
+    position: relative;
+    z-index: 0;
+    width: 249px;
+    height: 176px;
+    gap: 0px;
+    border-radius: 40px 40px 40px 40px;
+    opacity: 0px;
+    background-color: #35A080;
+    overflow: hidden;
+    
+}
+.image-product-card{
+    position: relative;
+    z-index: 6;
+    margin-top: -32px;
+    gap: 0px;
+}
+.product-detail{
+    position: relative;
+    z-index: 6;
+    width: 249px;
+    height: 48px;
+    margin-top: -89px;
+    /* gap: 0px; */
+    /* opacity: 0px; */
+    /* border: 0.5px solid;
+    border-image-slice: 1; */
+    /* border-image-source: linear-gradient(256.02deg, #FFFFFF 7.63%, #FFFFFF 103.92%); */
+    backdrop-filter: blur(10px);
+    animation: hover--button 0.5s ease-in-out backwards;
+}
+@keyframes hover-button{
+    0%{height:48px; margin-top: -89;}
+    100%{height: 90px; margin-top:-131.2px;}
+}@keyframes hover--button{
+    100%{height:48px; margin-top: -89;}
+    0%{height: 90px; margin-top:-131.2px;}
+}
+.product-detail-hover:hover{
+    animation: hover-button 0.5s ease-in-out forwards;
+}
+.border-gradient {
+    border: 0.5px solid;
+    border-image-slice: 1;
+    border-image-source : linear-gradient(256.02deg, #FFFFFF 7.63%, #FFFFFF 103.92%);
 }
