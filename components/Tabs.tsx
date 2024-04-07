@@ -16,13 +16,26 @@ function getPreviousIndex(current: number, elements: HTMLButtonElement[]) {
   return current;
 }
 const Content1 = () => (
-  <div>
-      Content1
+  <div className='mt-[-25rem] ml-[21.875rem] '>
+    <img src="/0007 2.png" alt="asba" />
   </div>
 )
 const Content2 = () => (
   <div>
-      Content2
+  </div>
+)
+const Content3 = () => (
+  <div>
+  </div>
+)
+const Content4 = () => (
+  <div>
+      
+  </div>
+)
+const Content5 = () => (
+  <div>
+     
   </div>
 )
 
@@ -47,15 +60,21 @@ interface Tab {
 }
 
 const tabs: Tab[] = [
-  { label: 'Features',
+  { label: 'Die cut pellets',
     content: <Content1/>
   },
-  { label: 'Specifications',
+  { label: 'Laminated',
     content: <Content2/>
   },
-  { label: 'Reviews' },
-  { label: 'Support' },
-  { label: 'Delivery & Returns' },
+  { label: 'Micropellets',
+    content: <Content3/>
+   },
+  { label: 'Strip',
+    content: <Content4/>
+   },
+  { label: 'Raw materials',
+    content: <Content5/>
+   },
 ];
 
 export default function TabsBasic() {
@@ -99,7 +118,7 @@ export default function TabsBasic() {
         role="tablist"
         aria-label="Select tab"
         aria-orientation="horizontal"
-        className="flex gap-2  pb-1 overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
+        className="pt-[1.25rem] pl-[0.5rem] rounded-t-[61px] rounded-bl-[61px] text-white bg-main-color h-[33.75rem] flex  space-x-[16px]  pb-1 overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
       >
         {tabs.map((tab) => (
           <button
@@ -114,8 +133,8 @@ export default function TabsBasic() {
             onClick={() => setActiveTab(tab)}
             onKeyDown={handleKeyDown}
             className={classNames(
-              'px-4 py-2 rounded-md font-medium whitespace-nowrap text-neutral-500 hover:enabled:bg-primary-100 hover:enabled:text-primary-800 active:enabled:bg-primary-200 active:enabled:text-primary-900 disabled:text-disabled-500 focus-visible:outline focus-visible:-outline-offset-2 focus-visible:shadow-[inset_0_0_0_4px_rgb(255,255,255)]',
-              { '!bg-green-600 !text-white': isActive(tab) },
+              'px-4 py-2 flex flex-col justify-center rounded-[2.313rem] ml-[1.25rem] mb-[30rem] border-2 border-white font-medium whitespace-nowrap text-neutral-500 hover:enabled:bg-primary-100 hover:enabled:text-primary-800 active:enabled:bg-primary-200 active:enabled:text-primary-900 disabled:text-disabled-500 focus-visible:outline focus-visible:-outline-offset-2 focus-visible:shadow-[inset_0_0_0_4px_rgb(255,255,255)]',
+              { 'bg-white text-main-color': isActive(tab) },
             )}
           >
             {tab.label}

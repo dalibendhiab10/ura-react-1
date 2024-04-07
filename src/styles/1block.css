@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .block1{
     width: 1920px;
     height: 920px;
@@ -5,4 +9,31 @@
     border-radius: 0px 0px 80px 80px;
     opacity: 0px;
     background-color: #35A080;
+}
+.image-blur{
+    clip-path: url('./Subtract bg.svg') ;
+    backdrop-filter: blur(10px);
+}
+.Products-button{
+    width: 198px;
+    height: 50px;
+    padding: 16px 64px 16px 64px;
+    border-radius: 37px 37px 37px 37px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF
+}
+
+@media not all and (min-width: 900px) { 
+    .mobile-image{
+        margin-left: -1083px;
+        border-radius: 0px 0px 80px 80px;  
+    }
+}
+
+.background-image{
+    background-image: url('/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
