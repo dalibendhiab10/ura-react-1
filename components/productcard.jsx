@@ -1,6 +1,6 @@
 
 const Products = () => (
-    <div className="product-card-menu flex flex-col items-center">
+    <div className="product-card-menu flex flex-col items-center" onClick={console.log("nikomk")}>
         <img src="/0018.png" alt="product" className="image-product-card"/>
         <div className="text-white product-detail product-detail-hover">
         Micropelette
@@ -8,3 +8,4 @@ const Products = () => (
     </div>
 )
 export default Products;
+
