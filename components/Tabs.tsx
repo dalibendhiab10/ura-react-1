@@ -30,12 +30,12 @@ const Content3 = () => (
 )
 const Content4 = () => (
   <div>
-      
+
   </div>
 )
 const Content5 = () => (
   <div>
-     
+
   </div>
 )
 
@@ -60,21 +60,26 @@ interface Tab {
 }
 
 const tabs: Tab[] = [
-  { label: 'Die cut pellets',
-    content: <Content1/>
+  {
+    label: 'Die cut pellets',
+    content: <Content1 />
   },
-  { label: 'Laminated',
-    content: <Content2/>
+  {
+    label: 'Laminated',
+    content: <Content2 />
   },
-  { label: 'Micropellets',
-    content: <Content3/>
-   },
-  { label: 'Strip',
-    content: <Content4/>
-   },
-  { label: 'Raw materials',
-    content: <Content5/>
-   },
+  {
+    label: 'Micropellets',
+    content: <Content3 />
+  },
+  {
+    label: 'Strip',
+    content: <Content4 />
+  },
+  {
+    label: 'Raw materials',
+    content: <Content5 />
+  },
 ];
 
 export default function TabsBasic() {

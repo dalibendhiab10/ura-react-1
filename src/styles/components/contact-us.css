@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.contact-us {
+  border-radius: 80px 80px 0px 80px;
+  color: #fff;
+  width: 100%;
+  height: 50%;
+  padding: 3% 0 0 0%;
+  border-radius: 80px 80px 0px 80px;
+}
+.contact-us svg {
+  width: 100%;
+  height: 80%;
+  margin-top: 0%;
+
+  
+}
+
+.contact-text {
+  gap: 4px;
+  margin-left: 10%;
+}
+
+.contact-text p {
+  opacity: 0.8;
+}
+.contact-us button {
+  width: 214px;
+  height: 50px;
+  padding: 16px 64px 16px 64px;
+  gap: 10px;
+  border-radius: 37px 37px 37px 37px;
+}
+
+.grid-col-template{
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+@media screen and (min-width:321px) and (max-width:768px){
+  .contact-us{
+    padding : 0% 0 0 0%;
+  }
+  .contact-us svg{
+    margin-top: -25%;
+  }
+}

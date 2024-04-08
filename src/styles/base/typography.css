@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.text-h1 {
+  font-family: "Urbanist", sans-serif;
+  font-size: clamp(3.5rem, 7vw, 4.875rem);
+  font-weight: 500;
+  line-height: clamp(60px, 10vw, 78px);
+  letter-spacing: 0.01em;
+}
+
+.text-h2 {
+  font-family: "Urbanist", sans-serif;
+  font-size: clamp(3.125rem, 6vw, 4.375rem);
+  font-weight: 500;
+  line-height: clamp(50px, 8vw, 70px);
+  letter-spacing: 0.01em;
+}
+
+.text-desc1 {
+  font-family: "Urbanist", sans-serif;
+  font-size: clamp(2.25rem, 4.5vw, 3rem);
+  font-weight: 400;
+  line-height: clamp(46.8px, 7.68vw, 62.4px);
+  letter-spacing: -0.015em;
+}
+
+.text-desc2 {
+  font-family: "Urbanist", sans-serif;
+  font-size: clamp(1.5rem, 3vw, 1rem);
+  font-weight: 400;
+  line-height: clamp(28.8px, 4.8vw, 38.4px);
+}
+
+.text-desc3 {
+  font-family: "Urbanist", sans-serif;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-weight: 400;
+  line-height: clamp(19.2px, 3.84vw, 23.8px);
+  letter-spacing: -0.015em;
+}
+
+.text-btn-main {
+  font-family: "Urbanist", sans-serif;
+  font-size: clamp(0.875rem, 1.75vw, 1rem);
+  font-weight: 600;
+  line-height: clamp(14.4px, 2.88vw, 18px);
+}
+
+.text-footer {
+  font-family: "Urbanist", sans-serif;
+  font-size: clamp(1.125rem, 2.25vw, 1.5rem);
+  font-weight: 600;
+  line-height: clamp(21.6px, 4.32vw, 28.8px);
+  letter-spacing: -0.015em;
+}
+
+.text-btn-nav {
+  font-family: "Urbanist", sans-serif;
+  font-size: clamp(0.875rem, 1.75vw, 1rem);
+  font-weight: 400;
+  line-height: clamp(8px, 1.6vw, 10px);
+  text-align: right;
+}

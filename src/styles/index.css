@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Additional styles */
+:root {
+  background-color: #f0f9f5;
+  margin: 0;
+  padding: 20px 20px 20px 20px;
+  font-family: "Urbanist", sans-serif;
+
+}
+

@@ -1,0 +1,247 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer {
+  top: -3rem;
+  width: 100%;
+  height: 600px;
+}
+
+.footer-img {
+  z-index: -999 !important;
+}
+.adress-logo {
+  width: 280px;
+  height: 80.58px;
+}
+.text-main-color {
+  color: #527262;
+}
+.footer-title {
+  font-family: "Urbanist", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+}
+.adress-content {
+  font-family: "Urbanist", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+.social-media-text {
+  font-family: "Urbanist", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+.social-media-img {
+  width: 40px;
+  height: 40px;
+}
+.g-y-22 {
+  row-gap: 1.375rem;
+}
+.g-y-logo {
+  row-gap: 4.964rem;
+}
+.p-y-66 {
+  padding-top: 2.125rem;
+  padding-left: 3rem;
+}
+.m-l-8rem {
+  margin-left: 8rem;
+}
+.p-t-67 {
+  padding-top: 4.188rem;
+}
+.p-l-30 {
+  margin-left: 1.875rem;
+}
+.p-t-155 {
+  padding-top: 7.9rem;
+  padding-right: 53rem;
+}
+.p-t-65{
+  padding-top: 6.5rem; 
+}
+.p-t-28{
+  padding-top:2.8rem ;
+}
+
+.btn-color-main {
+  background-color: #fff;
+  color: #00b88f;
+}
+.btn-active-main {
+  background-color: #00b88f;
+  color: #fff;
+}
+
+.btn-color-main:hover {
+  background-color: #00b88f;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.bg-main {
+  background-color: #00b88f;
+}
+
+.w-450 {
+  width: 10rem;
+}
+.flex-d {
+  display: flex;
+}
+.br-80 {
+  border-radius: 0px 0px 80px 0px;
+}
+.mr-7p {
+  margin-right: 7%;
+}
+.w-225 {
+  width: 16.3%;
+}
+.mr-12p {
+  margin-right: 12.4%;
+}
+.w-80p {
+  width: 80%;
+}
+.bloc4 {
+  height: 100px;
+}
+.bloc1 {
+  height: 400px;
+  width: 100%!important;
+}
+
+.bloc1-div {
+  padding-right: 37.7%;
+}
+.bloc1-svg1 {
+  padding-left: 5%;
+}
+.bloc3-svg5 {
+  margin-top: 4px;
+}
+.bloc3 {
+  padding-left: 0%;
+}
+/*laptop ++ view   */
+
+@media screen and (min-width: 1441px) {
+  .mr-12p {
+    margin-right: 18.06% !important;
+  }
+}
+/*laptop view   */
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .mr-12p {
+    margin-right: 18.4% !important;
+  }
+  .bloc3 {
+    padding-left: 2%;
+  }
+  .bloc4 {
+    height: 70px;
+  }
+  .margin-bloc1 {
+    margin-left: 6.25rem !important;
+    margin-top: 1.25rem !important;
+  }
+  .bloc1-div {
+    padding-right: 26.06%;
+  }
+
+}
+/* tab view   */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bloc1 {
+    height: 330px;
+    width: 100% !important;
+  }
+  .margin-bloc1 {
+    margin-left: 7.25rem!important;
+    margin-top: 0.25rem!important;
+  }
+  .mr-12p {
+    margin-right: 23.2% !important;
+  }
+  .bloc4 {
+    height: 60px;
+  }
+  .w-225 {
+    width: 10.9%;
+  }
+  .bloc1-div {
+    padding-right: 0;
+  }
+  .margin-bloc1 svg {
+    width: 300px;
+  }
+  .contact-us-texts {
+    width: 200% !important;
+  }
+  .contact-us-texts div {
+    margin-bottom: -10% !important;
+  }
+  .contact-us-texts button {
+    margin-top: -10% !important;
+  }
+  .bloc1-svg1 {
+    padding-left: 6%;
+  }
+  .contact-text {
+    gap: 0px !important;
+  }
+  .contact-title {
+    font-size: clamp(2.125rem, 6vw, 1px) !important;
+    font-weight: 500 !important;
+    line-height: clamp(47px, 7vw, 40px) !important;
+  }
+}
+
+/*laptop view   */
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .bloc1 {
+    height: 280px;
+  }
+  .mr-12p {
+    margin-right: 23.2% !important;
+  }
+  .bloc4 {
+    height: 60px;
+  }
+  .w-225 {
+    width: 10.9%;
+  }
+  .bloc2 {
+    width: 39.1% !important;
+  }
+}
+.contact-us-texts {
+  width: 250%;
+}
+.contact-us-button {
+  width: 214px;
+  height: 50px;
+  padding: 16px 64px 16px 64px;
+  gap: 10px;
+  opacity: 0px;
+}
+.contact-usdesc3 {
+  width: 70%;
+}
+.margin-bloc1 {
+  margin-left: 6.25rem;
+  margin-top: 1.25rem;
+}

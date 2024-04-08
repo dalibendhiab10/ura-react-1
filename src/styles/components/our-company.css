@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.company-container{
+    Height : 698px;
+    background-color: #CBE8DE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.company-text{
+    width: 39%;
+    position: absolute;
+    top: 61%;
+    left: 6%;
+}

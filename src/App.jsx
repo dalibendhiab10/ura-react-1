@@ -1,7 +1,7 @@
 import Bar from '../components/BarComponent';
-import Products from '../components/productcard';
 import Block1 from '../components/1firstblock';
 import Block2 from '../components/block2';
+import OurProcess from '../components/ProcessComponent';
 function App() {
 
   return (
@@ -11,6 +11,7 @@ function App() {
       <div className='flex flex-row justify-center'>
       <Block2/>  
       </div>  
+      <OurProcess/>
       <img src='bg.png' alt=''/>
       {/* <Products /> */}
     </div>
