@@ -23,3 +23,11 @@
         width:9.875rem;
     }
 }
+
+.text-h11{
+    font-size: 38px;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+    line-height: clamp(36.8px, 7.68vw, 52.4px);
+    letter-spacing: -0.015em;
+    }

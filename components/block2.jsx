@@ -2,6 +2,7 @@ import TabsBasic from "./Tabs";
 
 
 const Block2 = () => (
+
   <div className="flex lfex-row ml-[18.75rem] mr-[18.75rem] " >
     <div className="mt-[3.75rem] h-[40.313rem]   ">
       <TabsBasic />

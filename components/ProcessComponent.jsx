@@ -47,12 +47,15 @@ const OurProcess = () => {
                     </button>
                 ))}
             </div>
-
+{/* //flex items-end overflow-hidden no-scrollbar pt-7 mx-auto relative */}
+            
             <div
                 ref={svgContainerRef}
-                className="flex items-end overflow-hidden no-scrollbar pt-7 mx-auto relative" // Centering the container horizontally
+                className={`"flex items-end  overflow-hidden no-scrollbar  pt-7 mx-auto relative" ${(listbtns[0] || !(listbtns[4]))? "flex items-end  overflow-hidden no-scrollbar pl-[450px] pt-7 mx-auto relative" : "flex items-end overflow-hidden no-scrollbar pt-7 mx-auto relative pr-[450px]"}`}// Centering the container horizontally
                 style={{ maxWidth: "100%", scrollBehavior: 'smooth' }} // Added maxWidth to ensure the container doesn't overflow its parent
             >
+                {/* <div className='w-[500px]'>
+                </div> */}
 
                 <img
                     src={`/assets/process/1.svg`}

@@ -10,11 +10,22 @@ function App() {
       <div className="mt-[-86px]">
       <Block1 />  
       </div>
-      {/* <div className='flex flex-row justify-center'>
+      <div className=" grid grid-flow-col justify-center content-center space-x-[240px] mt-10 ">
+        <div className='grid grid-flow-row space-y-12'>
+          <div className='text-desc3 '>Raw materials</div>
+          <div className='text-desc2 text-main-color '>"We offer wholesale distribution <p>of premium raw materials"</p></div>
+        
+        </div>
+        
+        <div className='text-h11 text-[#35A080]'>"We offer wholesale distribution <p>of premium raw materials to our</p>  valued customers."</div>
+       
+       </div>
+      <div className='flex flex-row justify-center'>
       <Block2 />  
       </div>  
-      <OurProcess/> */}
-      {/* <Products /> */}
+      <OurProcess/>
+      {/*  <Products /> 
+      */}
     </div>
   );
 }
