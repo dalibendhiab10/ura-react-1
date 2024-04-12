@@ -16,8 +16,7 @@ function getPreviousIndex(current: number, elements: HTMLButtonElement[]) {
   return current;
 }
 const Content1 = () => (
-  <div className='mt-[-25rem] ml-[21.875rem] '>
-    <img src="/0007 2.png" alt="asba" />
+  <div>
   </div>
 )
 const Content2 = () => (
@@ -123,7 +122,7 @@ export default function TabsBasic() {
         role="tablist"
         aria-label="Select tab"
         aria-orientation="horizontal"
-        className="pt-[1.25rem] pl-[0.5rem] rounded-t-[61px] rounded-bl-[61px] text-white bg-main-color h-[33.75rem] flex  space-x-[16px]  pb-1 overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
+        className=" tabs"
       >
         {tabs.map((tab) => (
           <button

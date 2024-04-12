@@ -6,13 +6,14 @@ function App() {
 
   return (
     <div className='body' >
-      <Bar/>  
-      <Block1/>  
-      <div className='flex flex-row justify-center'>
-      <Block2/>  
+      <Bar/>
+      <div className="mt-[-86px]">
+      <Block1 />  
+      </div>
+      {/* <div className='flex flex-row justify-center'>
+      <Block2 />  
       </div>  
-      <OurProcess/>
-      <img src='bg.png' alt=''/>
+      <OurProcess/> */}
       {/* <Products /> */}
     </div>
   );

@@ -25,7 +25,7 @@ function Bar() {
                         </div>
                         <div className='w-3/5 h-full flex flex-rows items-center space-x-[4.375rem] lg:space-x-[2.5rem]'>
 
-                            <ul className='navbar-text ml-20 text-white flex text-nowrap space-x-[29px] items-center '>
+                            <ul className='navbar-text ml-20 text-white flex text-nowrap space-x-[29px] items-center max-md:hidden '>
                                 <BasicDropdown togle={isOpen} setoggle={setIsOpen} className="" />
                                 <li><Link to="/about">Raw Materials</Link></li>
                                 <li><Link to="/about">Our Process</Link></li>

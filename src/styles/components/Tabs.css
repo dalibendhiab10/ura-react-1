@@ -1,20 +1,75 @@
 .tablist {
-  @apply pt-[1.25rem] pl-[0.5rem] rounded-t-[61px] rounded-bl-[61px] text-white bg-main-color h-[33.75rem] flex space-x-[16px] pb-1 overflow-x-auto;
-  &::-webkit-scrollbar {
-    display: none;
-  }
+  padding-top: 1.25rem;
+  padding-left: 0.5rem;
+  border-top-left-radius: 61px;
+  border-bottom-left-radius: 61px;
+  color: white;
+  background-color: var(--main-color);
+  height: 33.75rem;
+  display: flex;
+  gap: 16px;
+  padding-bottom: 1rem;
+  overflow-x: auto;
+}
+
+.tablist::-webkit-scrollbar {
+  display: none;
+}
+
+.tablist {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
 
-  @media (max-width: 768px) {
-    @apply pt-1 pl-1 rounded-t-10 rounded-bl-10 h-auto flex-col space-x-0 space-y-4;
+@media (max-width: 768px) {
+  .tablist {
+      padding-top: 1rem;
+      padding-left: 1rem;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      height: auto;
+      flex-direction: column;
+      gap: 4px;
   }
 }
 
 .tab {
-  @apply px-4 py-2 flex flex-col justify-center rounded-[2.313rem] ml-[1.25rem] mb-[30rem] border-2 border-white font-medium whitespace-nowrap text-neutral-500 hover:enabled:bg-primary-100 hover:enabled:text-primary-800 active:enabled:bg-primary-200 active:enabled:text-primary-900 disabled:text-disabled-500 focus-visible:outline focus-visible:-outline-offset-2 focus-visible:shadow-[inset_0_0_0_4px_rgb(255,255,255)];
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 2.313rem;
+  margin-left: 1.25rem;
+  margin-bottom: 30rem;
+  border: 2px solid white;
+  font-weight: medium;
+  white-space: nowrap;
+  color: var(--neutral-500);
+}
 
-  @media (max-width: 768px) {
-    @apply px-2 py-1 ml-1 mb-10;
+.tab:hover:enabled {
+  background-color: var(--primary-100);
+  color: var(--primary-800);
+}
+
+.tab:active:enabled {
+  background-color: var(--primary-200);
+  color: var(--primary-900);
+}
+
+.tab:disabled {
+  color: var(--disabled-500);
+}
+
+.tab:focus-visible {
+  outline: none;
+  box-shadow: inset 0 0 0 4px rgb(255,255,255);
+}
+
+@media (max-width: 768px) {
+  .tab {
+      padding: 1rem 2rem;
+      margin-left: 1rem;
+      margin-bottom: 10rem;
   }
 }

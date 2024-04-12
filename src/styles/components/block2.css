@@ -1,0 +1,25 @@
+.tabs{
+    display: flex; 
+    overflow-x: auto; 
+    padding-bottom: 0.25rem; 
+    color: #ffffff; 
+    padding-top: 1.25rem;
+    padding-left: 0.5rem;
+    width: 67.625rem;
+    height: 33.75rem;
+    background-color: #35A080;
+    border-top-left-radius:61px;
+    border-top-right-radius:61px;
+    border-bottom-left-radius: 61px;
+    
+    
+
+    @media(max-width: 1024px){
+        width:47.625rem;
+    }
+}
+.block{
+    @media(max-width: 1024px){
+        width:9.875rem;
+    }
+}
