@@ -7,6 +7,9 @@
   width: 100%;
   height: 600px;
 }
+.bloc2 {
+  border-radius: 0 0 80px 0;
+}
 
 .footer-img {
   z-index: -999 !important;
@@ -68,11 +71,11 @@
   padding-top: 7.9rem;
   padding-right: 53rem;
 }
-.p-t-65{
-  padding-top: 6.5rem; 
+.p-t-65 {
+  padding-top: 6.5rem;
 }
-.p-t-28{
-  padding-top:2.8rem ;
+.p-t-28 {
+  padding-top: 2.8rem;
 }
 
 .btn-color-main {
@@ -106,20 +109,23 @@
   margin-right: 7%;
 }
 .w-225 {
-  width: 16.3%;
+  width: 15.95%;
 }
 .mr-12p {
-  margin-right: 12.4%;
+  margin-right: 17.85% !important;
 }
 .w-80p {
   width: 80%;
 }
 .bloc4 {
   height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .bloc1 {
   height: 400px;
-  width: 100%!important;
+  width: 100% !important;
 }
 
 .bloc1-div {
@@ -132,23 +138,28 @@
   margin-top: 4px;
 }
 .bloc3 {
-  padding-left: 0%;
+  height: 5.25rem;
+  width: 18.3rem;
+}
+.footer-contact {
+  padding-left: 20%;
+  padding-top: 17%;
 }
 /*laptop ++ view   */
 
 @media screen and (min-width: 1441px) {
   .mr-12p {
-    margin-right: 18.06% !important;
+    margin-right: 12.55% !important;
   }
 }
-/*laptop view   */
+/*laptop L view   */
 
 @media (min-width: 1025px) and (max-width: 1440px) {
   .mr-12p {
-    margin-right: 18.4% !important;
+    margin-right: 12.8% !important;
   }
   .bloc3 {
-    padding-left: 2%;
+    width: 17.68rem;
   }
   .bloc4 {
     height: 70px;
@@ -160,23 +171,29 @@
   .bloc1-div {
     padding-right: 26.06%;
   }
-
 }
-/* tab view   */
-@media (min-width: 768px) and (max-width: 1024px) {
+.footer-mobile-display{
+  display: none!important ;
+}
+/* laptop view   */
+@media (min-width: 769px) and (max-width: 1024px) {
   .bloc1 {
-    height: 330px;
+    height: 300px;
     width: 100% !important;
   }
   .margin-bloc1 {
-    margin-left: 7.25rem!important;
-    margin-top: 0.25rem!important;
+    margin-left: 6.25rem !important;
+    margin-top: -2rem !important;
+    justify-items: end;
   }
   .mr-12p {
-    margin-right: 23.2% !important;
+    margin-right: 15.2% !important;
   }
   .bloc4 {
     height: 60px;
+  }
+  .bloc4 p {
+    font-size: 9px;
   }
   .w-225 {
     width: 10.9%;
@@ -186,9 +203,14 @@
   }
   .margin-bloc1 svg {
     width: 300px;
+    margin-right: 15%;
   }
+
   .contact-us-texts {
-    width: 200% !important;
+    width: 100% !important;
+  }
+  .m-l-8rem {
+    margin-left: 3rem;
   }
   .contact-us-texts div {
     margin-bottom: -10% !important;
@@ -207,9 +229,23 @@
     font-weight: 500 !important;
     line-height: clamp(47px, 7vw, 40px) !important;
   }
+  .g-y-logo {
+    row-gap: 1.5rem;
+  }
+  .footer-contact {
+    padding-left: 10%;
+    padding-top: 18%;
+  }
+  .bloc3 {
+    height: 5.25rem;
+    width: 10.9rem;
+  }
+  .adress-content {
+    font-size: 19px;
+  }
 }
 
-/*laptop view   */
+/*tab view   */
 
 @media (min-width: 426px) and (max-width: 768px) {
   .bloc1 {
@@ -227,7 +263,68 @@
   .bloc2 {
     width: 39.1% !important;
   }
+  .bloc1 svg {
+    width: 250px;
+    height: 250px;
+  }
+  .bloc1-div,
+  .bloc4 {
+    border-radius: 80px 80px;
+  }
+  .bloc4 {
+    width: 100%;
+  }
+  .margin-bloc1 {
+    padding-left: 15% !important;
+    padding-top: 1rem;
+
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+  }
+  .contact-us-texts {
+    width: 150%;
+  }
+  .bloc3-svg5,
+  .bloc3-svg3,
+  .bloc3-svg4,
+  .bloc3 {
+    display: none;
+  }
+  .bloc2 {
+    background-color: #f0f9f5;
+  }
+  .text-tab {
+    color: black !important;
+  }
+  .mr-12p {
+    margin-right: 0 !important;
+  }
+  .g-y-logo {
+    row-gap: 0.5rem;
+  }
+  .adress-content {
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+  }
+  .m-l-8rem {
+    margin-left: 0rem;
+  }
+  .forgot-tab {
+    width: 24%;
+  }
+  .social-media-img {
+    display: none;
+  }
+  .social-media-img-tab {
+    display: inline !important;
+  }
 }
+
+.social-media-img-tab ,.footer-mobile-display{
+  display: none;
+}
+
 .contact-us-texts {
   width: 250%;
 }
@@ -242,6 +339,137 @@
   width: 70%;
 }
 .margin-bloc1 {
-  margin-left: 6.25rem;
+  margin-left: 14.25rem;
   margin-top: 1.25rem;
+}
+.mobile-contactinf {
+  width: 20rem;
+  border-radius: 0 40px 40px 40px;
+}
+
+.mobile-termsdiv {
+  @apply mx-3;
+  padding-left: 17px;
+}
+.mobile-terms-text {
+  height: 90px;
+  width: 248px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mobile-contactinf {
+  width: 25rem;
+  border-radius: 0 40px 40px 40px;
+}
+@media (min-width: 320px) and (max-width: 426px) {
+  .footer-mobile-display{
+    display: inline !important;
+  }
+  .bloc3-svg5,
+  .bloc3-svg3,
+  .bloc3-svg4,
+  .bloc3 {
+    display: none;
+  }
+  .bloc2 {
+    background-color: #f0f9f5;
+  }
+  .bloc1-div,
+  .bloc4 {
+    border-radius: 40px 40px !important;
+  }
+  .margin-bloc1 {
+    margin-left: 0;
+    margin-top: 0;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .margin-bloc1 svg {
+    width: 300px;
+    height: 170px;
+    @apply my-10 mx-5;
+  }
+  .margin-bloc1 h2 {
+    line-height: 40px;
+    font-size: 32px;
+  }
+  .contact-usdesc3 {
+    width: 50%;
+  }
+  .bloc1 {
+    height: 460px;
+    width: 100% !important;
+  }
+  .contact-us-button {
+    width: 55%;
+    height: 40px;
+    padding: 0;
+  }
+  .contact-text {
+    gap: 12px;
+  }
+  .bloc2,
+  .bloc4 {
+    display: none;
+  }
+  .m-l-8rem {
+    margin-left: 0rem;
+  }
+  .g-y-logo {
+    row-gap: 20px;
+  }
+  .adress-content {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    letter-spacing: -0.015em;
+  }
+  .contentfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @apply items-start;
+  }
+  .g-y-22 {
+    row-gap: 0.5rem;
+  }
+}
+@media (min-width: 377px) and (max-width: 426px) {
+  .margin-bloc1 svg {
+    width: 333px;
+    height: 270px;
+    margin-top: 0;
+    margin-bottom: -9px;
+    margin-left: 1.8rem;
+    margin-right: 1.25rem;
+  }
+}
+/* mobile M */
+@media (min-width: 321px) and (max-width: 376px) {
+  .margin-bloc1 svg {
+    width: 233px;
+    height: 240px;
+    margin-top: 0;
+    margin-bottom: -9px;
+    margin-left: 1.5rem;
+    margin-right: 0;
+  }
+  .mobile-contactinf {
+    width: 22rem!important;
+  }
+
+  .termsc{
+    margin: 0 !important;
+  }
+  .mobile-terms-text{
+    width: 198px;
+  }
+  .mobile-terms-text p {
+    @apply text-xs;
+  }
+  .mobile-termsdiv {
+    margin-right: 0;
+}
 }

@@ -2,18 +2,135 @@
 @tailwind components;
 @tailwind utilities;
 
-.company-container{
-    Height : 698px;
-    background-color: #CBE8DE;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-
+.company-container {
+  height: 698px;
+  background-color: #cbe8de;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.company-text{
-    width: 39%;
-    position: absolute;
-    top: 61%;
-    left: 6%;
+.company-text {
+  width: 39%;
+  position: absolute;
+  top: 61%;
+  left: 6%;
+}
+/* CSS for PC to Tablet Version */
+.pc-tab-container {
+  display: block; /* Make it a block element */
+}
+
+.company-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.company-text {
+  margin-left: 20px;
+}
+
+.text-desc3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.text-desc2 {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+/* CSS for Mobile Version */
+.mobile-container {
+  display: none; /* Hide it by default */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 426px) {
+  .pc-tab-container {
+    display: none; /* Hide PC to Tablet Version */
+  }
+
+  .mobile-container {
+    display: block; /* Show Mobile Version */
+    text-align: center;
+    padding: 20px;
+  }
+}
+.btn-company {
+  color: white;
+  background-color: #00b88f;
+  width: 197px;
+  height: 50px;
+  border-radius: 37px;
+  bottom: 8.5rem;
+  left: 34rem;
+}
+.btn-company:hover {
+  background-color: white;
+  color: #00b88f;
+  border: 1px solid #00b88f;
+}
+@media screen and (min-width:1025px) and (max-width:1455px) {
+    .btn-company {
+        bottom: 3.5rem;
+        left: 33rem;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .btn-company {
+        bottom: 7.5rem;
+        width: 167px;
+        height: 40px;
+        left: 23rem;
+    }
+}
+@media screen and (min-width:426px) and (max-width:768px) {
+    .btn-company {
+        bottom: 9.9rem;
+        width: 122px;
+        height: 35px;
+        left: 17.5rem;
+    }
+}
+.btn-company-mobile {
+    color: white;
+    background-color: #00b88f;
+    width: 197px;
+    height: 50px;
+    border-radius: 37px;
+  }
+  .btn-company-mobile:hover {
+    background-color: white;
+    color: #00b88f;
+    border: 1px solid #00b88f;
+  }
+@media  (min-width:375px) or (max-width:425px) {
+    .btn-company-mobile {
+        bottom: 13.5rem;
+        width: 352px;
+        height: 56px;
+        left: 2.5rem;
+    }
+}
+@media  (min-width:321px) or (max-width:374px) {
+
+    .btn-company-mobile {
+        bottom: 16.8rem;
+        width: 294px;
+        height: 46px;
+        left: 2.5rem;
+    }
+}
+@media screen and (max-width:320px) {
+
+    .btn-company-mobile {
+        bottom: 20.2rem;
+        width: 240px;
+        height: 40px;
+        left: 2.5rem;
+    }
 }

@@ -37,3 +37,9 @@
     width: fit-content;
   }
 }
+/* @media (max-width: 388px) {
+  svg {
+    width: 388px;
+    height: 421px;
+  }
+} */
