@@ -11,10 +11,10 @@
   align-items: center;
 }
 .company-text {
-  width: 39%;
-  position: absolute;
-  top: 61%;
-  left: 6%;
+  width: 20%;
+  position: relative;
+  top: -220px;
+  left: -21%;
 }
 /* CSS for PC to Tablet Version */
 .pc-tab-container {
@@ -32,9 +32,9 @@
   margin-left: 20px;
 }
 
-.text-desc3 {
-  font-size: 24px;
-  font-weight: bold;
+.text-desc3-ourcompany {
+  font-size: 24px !important;
+  font-weight: bold !important;
 }
 
 .text-desc2 {
@@ -66,71 +66,95 @@
   width: 197px;
   height: 50px;
   border-radius: 37px;
-  bottom: 8.5rem;
-  left: 34rem;
+  left: -7%;
+  top: 72.4%;
 }
 .btn-company:hover {
   background-color: white;
   color: #00b88f;
   border: 1px solid #00b88f;
 }
-@media screen and (min-width:1025px) and (max-width:1455px) {
-    .btn-company {
-        bottom: 3.5rem;
-        left: 33rem;
-    }
+@media screen and (min-width: 1025px) and (max-width: 1455px) {
+  .btn-company {
+    left: -7%;
+    top: 71.6%;
+  }
 }
-@media screen and (min-width:769px) and (max-width:1024px) {
-    .btn-company {
-        bottom: 7.5rem;
-        width: 167px;
-        height: 40px;
-        left: 23rem;
-    }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .btn-company {
+    left: -7%;
+    top: 62.5%;
+    width: 15%;
+  }
+  .company-text {
+    width: 33%;
+    position: relative;
+    top: -250px;
+    left: -22%;
+  }
 }
-@media screen and (min-width:426px) and (max-width:768px) {
-    .btn-company {
-        bottom: 9.9rem;
-        width: 122px;
-        height: 35px;
-        left: 17.5rem;
-    }
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .btn-company {
+    left: -7%;
+    top: 58.2%;
+    width: 14%;
+    height: 5%;
+  }
+  .text-desc3-ourcompany {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+
+  .company-text p {
+    font-size: 0.75rem !important;
+    line-height: 1rem !important;
+  }
+  .company-text {
+    width: 28%;
+    position: relative;
+    top: -260px;
+    left: -22%;
+  }
 }
 .btn-company-mobile {
-    color: white;
-    background-color: #00b88f;
-    width: 197px;
+  color: white;
+  background-color: #00b88f;
+  width: 197px;
+  height: 50px;
+  border-radius: 37px;
+}
+.btn-company-mobile:hover {
+  background-color: white;
+  color: #00b88f;
+  border: 1px solid #00b88f;
+}
+
+/* Small (S) devices */
+@media (max-width: 321px) {
+  .btn-company-mobile {
+    top: 17.8rem;
+    width: 250px;
+    height: 40px;
+    left: 0;
+  }
+}
+
+/* Medium (M) devices */
+@media (min-width: 322px) and (max-width: 376px) {
+  .btn-company-mobile {
+    top: 21.2rem;
+    width: 93%;
     height: 50px;
-    border-radius: 37px;
+    left: 0;
   }
-  .btn-company-mobile:hover {
-    background-color: white;
-    color: #00b88f;
-    border: 1px solid #00b88f;
+}
+
+/* Large (L) devices */
+@media (min-width: 377px) and (max-width: 426px) {
+  .btn-company-mobile {
+    top: 390px;
+    width: 354px;
+    height: 56px;
+    left: 0;
   }
-@media  (min-width:375px) or (max-width:425px) {
-    .btn-company-mobile {
-        bottom: 13.5rem;
-        width: 352px;
-        height: 56px;
-        left: 2.5rem;
-    }
-}
-@media  (min-width:321px) or (max-width:374px) {
-
-    .btn-company-mobile {
-        bottom: 16.8rem;
-        width: 294px;
-        height: 46px;
-        left: 2.5rem;
-    }
-}
-@media screen and (max-width:320px) {
-
-    .btn-company-mobile {
-        bottom: 20.2rem;
-        width: 240px;
-        height: 40px;
-        left: 2.5rem;
-    }
 }

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Bar from '../components/BarComponent';
 import Nav_mob from '../components/mobile-nav';
 import Block1 from '../components/1firstblock';
