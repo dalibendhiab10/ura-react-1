@@ -1,3 +1,4 @@
+/* Existing styles */
 .btns-ourprocess button {
   padding: 12px 24px;
 }
@@ -5,9 +6,9 @@
 .btns-ourprocess {
   overflow: hidden;
 }
-/* Add this to your global stylesheet */
+
 .fade-opacity {
-  transition: opacity 0.3s ease-in-out; /* Adjust the duration and easing function as needed */
+  transition: opacity 0.3s ease-in-out;
 }
 
 .svg-container {
@@ -20,26 +21,53 @@
   opacity: 1;
   transform: translateX(0);
 }
+
 /* Hide scrollbar for Chrome, Safari and Opera */
-.no-scrollbar::-webkit-scrollbar {
+.btns-ourprocess::-webkit-scrollbar {
   display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-.no-scrollbar {
+.btns-ourprocess {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
-/* laptop range */
-@media screen and (min-width: 320px) and (max-width: 426px) {
+
+/* Responsive Adjustments */
+@media screen and (max-width: 426px) {
   .btns-ourprocess {
-    overflow: scroll;
-    width: fit-content;
+    overflow: scroll; /* Ensure scroll is enabled */
+    width: 100%; /* Adjust as needed */
+  }
+
+  .btns-ourprocess button {
+    width: 100%; /* Adjust as needed */
+  }
+
+  .svg-container {
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+  }
+  /* Example CSS to set SVG dimensions */
+  .svg-container svg {
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+  }
+  /* Hide scrollbar for mobile devices */
+  .btns-ourprocess::-webkit-scrollbar {
+    display: none;
+  }
+
+  .btns-ourprocess {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
   }
 }
-/* @media (max-width: 388px) {
-  svg {
-    width: 388px;
-    height: 421px;
-  }
-} */
+.desc-ourprocess {
+  color: #00b88f;
+}
+.btn-discover-process {
+  background-color: #00b88f;
+  color: white;
+  width: 12rem;
+}

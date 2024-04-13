@@ -33,10 +33,26 @@ const OurProcess = () => {
             behavior: 'smooth'
         });
     }, [process]);
-
+    // Inside your component, before the return statement
+    const getPaddingClass = () => {
+        // Example logic to determine padding class based on screen size and active step
+        // This is a simplified example; adjust according to your needs
+        if (window.innerWidth <= 426) {
+            // Adjust for mobile devices
+            // return listbtns[0] || !listbtns[4] ? "pl-[450px]" : "pr-[450px]";
+            return;
+        } else {
+            // Adjust for larger screens
+            return listbtns[0] || !listbtns[4] ? "pl-[40%]" : "pr-[40%]";
+        }
+    };
     return (
-        <div className="flex flex-col items-center "> {/* Centering the SVG container horizontally */}
-            <div className="flex justify-center gap-4 btns-ourprocess no-scrollbar">
+        <div className="flex flex-col items-center mb-40"> {/* Centering the SVG container horizontally */}
+            <p className='text-desc3 text-center pb-4'>Our Process</p>
+            <p className='text-h2 text-center pb-16 w-[80%]  desc-ourprocess'>Efficiently sourcing and delivering top-quality raw materials to
+                <br />top-quality chips</p>
+
+            <div className="flex justify-center gap-4 btns-ourprocess ">
                 {["Flours mixing", "Extrusion and forming", "Pre-drying", "Drying", "Cooling"].map((step, index) => (
                     <button
                         key={index}
@@ -46,16 +62,14 @@ const OurProcess = () => {
                         {step}
                     </button>
                 ))}
+
             </div>
-{/* //flex items-end overflow-hidden no-scrollbar pt-7 mx-auto relative */}
-            
+
             <div
                 ref={svgContainerRef}
-                className={`"flex items-end  overflow-hidden no-scrollbar  pt-7 mx-auto relative" ${(listbtns[0] || !(listbtns[4]))? "flex items-end  overflow-hidden no-scrollbar pl-[450px] pt-7 mx-auto relative" : "flex items-end overflow-hidden no-scrollbar pt-7 mx-auto relative pr-[450px]"}`}// Centering the container horizontally
-                style={{ maxWidth: "100%", scrollBehavior: 'smooth' }} // Added maxWidth to ensure the container doesn't overflow its parent
+                className={`flex items-end overflow-hidden no-scrollbar pt-[30px] mx-auto relative ${getPaddingClass()}`}
+                style={{ maxWidth: "100%", scrollBehavior: 'smooth' }}
             >
-                {/* <div className='w-[500px]'>
-                </div> */}
 
                 <img
                     src={`/assets/process/1.svg`}
@@ -88,6 +102,13 @@ const OurProcess = () => {
                     style={{ position: "relative" }}
                 />
             </div>
+            <button
+
+                className={`btn-color-main text-btn-main rounded-full w-max h-[40px] btn-discover-process mt-[60px] }`}
+
+            >
+                discover
+            </button>
         </div>
     );
 }
