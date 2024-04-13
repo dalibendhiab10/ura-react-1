@@ -7,7 +7,8 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}"
+    "./components/**/*.{js,ts,jsx,tsx}",
+    './node_modules/@storefront-ui/react/**/*.{js,mjs}'
   ],
   theme: {
     colors: {

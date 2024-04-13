@@ -11,6 +11,7 @@ import './styles/components/footer.css'
 import './styles/components/our-company.css'
 import './styles/components/our-process.css'
 import './styles/components/block2.css'
+import './styles/components/Block1_mob.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
