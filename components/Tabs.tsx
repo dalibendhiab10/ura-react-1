@@ -16,7 +16,8 @@ function getPreviousIndex(current: number, elements: HTMLButtonElement[]) {
   return current;
 }
 const Content1 = () => (
-  <div>
+  <div className=''>
+    <img src="./0007 2.png" alt="Die cut pellets" />
   </div>
 )
 const Content2 = () => (
@@ -144,13 +145,14 @@ export default function TabsBasic() {
             {tab.label}
           </button>
         ))}
-      </div>
-
-      {tabs.map((tab) => (
+        {tabs.map((tab) => (
         <div key={tab.label} role="tabpanel" id={panelId(tab.label)} aria-labelledby={tabId(tab.label)}>
           {isActive(tab) && tab.content}
         </div>
       ))}
+      </div>
+
+      
     </>
   );
 }

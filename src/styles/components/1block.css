@@ -48,6 +48,12 @@
     font-size: 3.5vw; /* Responsive font size based on viewport width */
     line-height: 1.2; /* Adjust line height as needed */
 }
+.text-small {
+    top: 60%;
+    left: 15%;
+    font-size: 1.5vw; /* Responsive font size based on viewport width */
+    line-height: 1.2; 
+}
 
 /* Media query for small screens */
 
