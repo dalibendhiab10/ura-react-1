@@ -36,20 +36,27 @@
   overflow-x: hidden;
 }
 .bar-web {
-  display: inline;
+  display: inline!important;
 }
 .bar-mob {
-  display: none;
-}
-@media (max-width: 768px) {
-  .bar-web {
-    display: none;
-  }
-  .bar-mob {
-    display: inline;
-  }
+  display: none!important;
 }
 
+@media screen and (max-width: 769px) {
+  .bar-web {
+    display: none!important;
+  }
+  .bar-mob {
+    display: inline!important;
+  }
+}
+.no-scroll {
+  overflow: hidden;
+}
+.scrollable-container {
+  overflow-y: auto; /* Enables vertical scrolling */
+  max-height: 100vh; /* Adjust this value based on your needs */
+ }
 .navbar {
   position: relative;
   z-index: 6;
@@ -228,10 +235,12 @@
     transform: scale(0.8);
   }
 }
-.mobile-container {
+.mobile-container-nav {
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
+  height: 80vh; /* Adjust this value as needed */
+  overflow-y: auto;
 }
 /* /* Base styles */
 .bars {

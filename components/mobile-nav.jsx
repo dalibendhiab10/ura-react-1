@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+
 import {
   BrowserRouter as Router,
   Route,
@@ -21,11 +22,18 @@ export default function Nav_mob() {
     setIsOpen(!isOpen);
   };
 
+  useEffect(() => {
+    if (isActive) {
+      document.body.classList.add('no-scroll');
+    } else {
+      document.body.classList.remove('no-scroll');
+    }
+  }, [isActive]);
   return (
     <>
       <div className={`${isActive ? 'fixed w-full' : ''}`}>
         <header className="flex  w-full py-2 content-between px-4 lg:py-5 lg:px-6 text-white bg-main-color border-0 bg-primary-700">
-          <div className="mobile-container h-full max-w-[1536px] w-full">
+          <div className="mobile-container-nav h-full max-w-[1536px] w-full">
 
             <a
               href="#"
@@ -55,13 +63,13 @@ export default function Nav_mob() {
             <div className=' flex flex-col items-start gap space-x-[4.375rem] lg:space-x-[2.5rem]'>
 
               <ul className=' mt-12 ml-5 text-white'>
-                <li className='mb-10 flex items-center' onClick={togglemenu}>
+                <li className='mb-10 flex items-center scrollable-container' onClick={togglemenu}>
                   <a>Products</a>
                   <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
                   </svg>
                 </li>
-                <div className={` flex flex-col items-center ${isOpen ? 'scroll-smooth inline' : 'hidden'}`}>
+                <div className={`flex flex-col items-center ${isOpen ? 'scroll-smooth inline ' : 'hidden'}`}>
                   <div className='flex flex-row '>
                     <Productcardmobile />
                     <Productcardmobile />
@@ -79,9 +87,6 @@ export default function Nav_mob() {
 
             </div>
 
-            <div className=' fixed  bottom-8  z-50 '>
-              <button className="h-[50px] w-[90vw]  text-center mx-5 text-white navbar-text text-nowrap rounded-full border-white border ">Contact Us</button>
-            </div>
           </div>
           <main>
             <Routes>
