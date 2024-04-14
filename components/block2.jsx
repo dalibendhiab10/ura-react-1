@@ -1,10 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import TabsBasic from "./Tabs";
 
-
-const Block2 = () => (
-  <>
-    <div className=" grid grid-flow-col justify-center content-center space-x-[240px] mt-10 ">
+const Text_desc = () => (
+  <div className=" grid grid-flow-col justify-center content-center space-x-[240px] mt-10 ">
       <div className='grid grid-flow-row space-y-12'>
         <div className='text-desc3 '>Raw materials</div>
         <div className='text-desc2 text-main-color '>"We offer wholesale distribution <p>of premium raw materials"</p></div>
@@ -14,8 +12,27 @@ const Block2 = () => (
       <div className='text-h11 text-[#35A080]'>"We offer wholesale distribution <p>of premium raw materials to our</p>  valued customers."</div>
 
     </div>
-    <div className='flex flex-row justify-center'>
+);
 
+const Text_Mobile = () => (
+  <div className=" grid grid-flow-row justify-center content-center space-y-[40px] mt-10 ">
+      <div className='grid grid-flow-row pl-[10px] space-y-3'>
+        <div className='text-desc2 '>Raw materials</div>
+        <div className='text-desc2 text-main-color '>"We offer wholesale distribution <p>of premium raw materials"</p></div>
+
+      </div>
+
+      <div className='text-h11-mobile text-[#35A080]'>"We offer wholesale  <p>distribution of premium raw materials to our valued</p>   customers."</div>
+
+    </div>
+);
+
+const Block2 = () => (
+  <>
+     <Text_Mobile />
+
+    <div className='flex flex-row justify-center'>
+     
       <div className="flex lfex-row ml-[18.75rem] mr-[18.75rem] " >
         <div className="mt-[3.75rem] h-[40.313rem]   ">
           <TabsBasic />

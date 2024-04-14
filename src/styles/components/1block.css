@@ -84,9 +84,45 @@
     .image-container{
         width:1024px ;
     }
-    .image-res{
-        margin-left: -660px;
-        margin-top: 60px ;
-        transform: scale(1.15);
+    .text-big {
+        font-size: 10.5vw; /* Adjust font size for smaller screens */
+        top: 0%;
+        left: 5%; /* Adjust positioning for smaller screens */
     }
+    .text-small {
+        font-size: 6.7vw; /* Adjust font size for smaller screens */
+        top: 70%;
+        left: 5%; /* Adjust positioning for smaller screens */
+    }
+    .image-res{
+        margin-left: -784px;
+        margin-top: 60px ;
+        transform: scale(1.5);
+    }
+    .button-placement{
+        top: 100%;
+        left: 10%;
+        width: 80%;
+    }
+}
+@media screen and (max-width: 431px){
+    .block-mobile{
+        display: show;
+        padding-top: 10%;
+        padding-bottom: 20%;
+        overflow: hidden;
+        border-radius: 0px 0px 40px 40px;
+    }
+    .block-desk{
+        display: none;
+    }
+}
+@media screen and (min-width: 431px){
+    .block-mobile{
+        display: none;
+    }
+    .block-desk{
+        display: show;
+    }
+    
 }

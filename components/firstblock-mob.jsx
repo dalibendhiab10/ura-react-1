@@ -15,7 +15,7 @@ const Block1_mob = () => (
             <p> with us.</p>
         </a>
         <a  className="absolute  text-white text-small  "><p>Lorem ipsum dolor sit amet, consectetur adipiscing</p> elit. Cursus imperdiet sed id elementum.</a>
-        <div className="button-placement  w-[10.3rem] h-[2.5rem] opacity-[0px] border px-16 py-4 rounded-[37px_37px_37px_37px] border-[0px_0px] border-solid border-white bg-white absolute z-4">
+        <div className="button-placement  opacity-[0px] border px-16 py-4 rounded-[37px_37px_37px_37px] border-[0px_0px] border-solid border-white bg-white absolute z-4">
         <button type="button" className="grid justify-center content-center  h-full w-full text-btn-main text-main-color"> 
           Products
         </button>
