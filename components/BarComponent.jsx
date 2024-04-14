@@ -12,7 +12,6 @@ import Contacts from '../src/pages/Contact';
 
 function Bar() {
     let [isOpen, setIsOpen] = useState(false);
-    console.log(isOpen)
     return (
         <Router>
             <div>

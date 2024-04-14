@@ -45,7 +45,7 @@
 
 /* CSS for Mobile Version */
 .mobile-container {
-  display: none; /* Hide it by default */
+  display: none!important; /* Hide it by default */
 }
 
 /* Media Query for Mobile Devices */
@@ -55,7 +55,7 @@
   }
 
   .mobile-container {
-    display: block; /* Show Mobile Version */
+    display: block!important; /* Show Mobile Version */
     text-align: center;
     padding: 20px;
   }

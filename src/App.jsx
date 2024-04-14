@@ -6,28 +6,26 @@ import Block1_mob from '../components/firstblock-mob';
 import Block2 from '../components/block2';
 import OurProcess from '../components/ProcessComponent';
 import Footer from '../components/FooterComponent';
+import OurCompany from '../components/OurCompanyComponent';
 function App() {
 
   return (
     <div className='body' >
+      
+      <div className='bar-web'>
+        
       <Bar/>
-      <div className="mt-[-86px]">
+      
+      </div>
+      <div className='bar-mob relative z-[9999]'>
+      <Nav_mob/>
+      </div>
+
+
       <Block1/>
-      </div> 
-      <div className=" grid grid-flow-col justify-center content-center space-x-[240px] mt-10 ">
-        <div className='grid grid-flow-row space-y-12'>
-          <div className='text-desc3 '>Raw materials</div>
-          <div className='text-desc2 text-main-color '>"We offer wholesale distribution <p>of premium raw materials"</p></div>
-        
-        </div>
-        
-        <div className='text-h11 text-[#35A080]'>"We offer wholesale distribution <p>of premium raw materials to our</p>  valued customers."</div>
-       
-       </div>
-      <div className='flex flex-row justify-center'>
       <Block2 />  
-      </div>  
       <OurProcess/>
+<OurCompany/>
       <Footer/>
     </div>
   );
