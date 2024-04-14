@@ -31,10 +31,54 @@
     line-height: clamp(36.8px, 7.68vw, 52.4px);
     letter-spacing: -0.015em;
     }
-.text-h11-mobile{
-    font-size: 28px;
-    font-family: "Urbanist", sans-serif;
-    font-weight: 400;
-    line-height: clamp(36.8px, 7.68vw, 52.4px);
-    letter-spacing: -0.015em;
+    .text-h11-mobile{
+        font-size: 28px;
+        font-family: "Urbanist", sans-serif;
+        font-weight: 400;
+        line-height: clamp(36.8px, 7.68vw, 52.4px);
+        letter-spacing: -0.015em;
+    }
+
+@media screen and (max-width: 431px){
+    .text-mobilee{
+        display: show;
+    }
+    .text-desc{
+        display: none;
+    }
+}
+@media screen and (min-width: 431px){
+    .text-mobilee{
+        display: none;
+    }
+    .text-desc{
+        display: show;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .text-desc2-mobile{
+        font-family: "Urbanist", sans-serif;
+        font-size: 2.5svh;
+        font-weight: 400;
+        line-height: clamp(28.8px, 4.8vw, 38.4px);
+    }
+    .text-desc3-mobile {
+        font-family: "Urbanist", sans-serif;
+        font-size: 2.5svh;
+        font-weight: 400;
+        line-height: clamp(19.2px, 3.84vw, 23.8px);
+        letter-spacing: -0.015em;
+    }
+    .text-h11{
+        font-size: 28px;
+        font-family: "Urbanist", sans-serif;
+        font-weight: 400;
+        line-height: clamp(36.8px, 7.68vw, 52.4px);
+        letter-spacing: -0.015em;
+    }
+    .space-tab{
+        margin-left: 0rem;
+    }
 }

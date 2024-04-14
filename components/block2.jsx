@@ -1,11 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import TabsBasic from "./Tabs";
 
+
 const Text_desc = () => (
-  <div className=" grid grid-flow-col justify-center content-center space-x-[240px] mt-10 ">
-      <div className='grid grid-flow-row space-y-12'>
-        <div className='text-desc3 '>Raw materials</div>
-        <div className='text-desc2 text-main-color '>"We offer wholesale distribution <p>of premium raw materials"</p></div>
+  <div className="text-desc grid grid-flow-col justify-center content-center lg:space-x-[240px] md:space-x-10 mt-10  ">
+      <div className='grid grid-flow-row space-y-12 pl-[16px] '>
+        <div className='text-desc3 text-desc3-mobile '>Raw materials</div>
+        <div className='text-desc2 text-desc2-mobile   text-main-color '>"We offer wholesale distribution <p>of premium raw materials"</p></div>
 
       </div>
 
@@ -13,9 +14,8 @@ const Text_desc = () => (
 
     </div>
 );
-
 const Text_Mobile = () => (
-  <div className=" grid grid-flow-row justify-center content-center space-y-[40px] mt-10 ">
+  <div className="text-mobilee grid grid-flow-row justify-center content-center space-y-[40px] mt-10 ">
       <div className='grid grid-flow-row pl-[10px] space-y-3'>
         <div className='text-desc2 '>Raw materials</div>
         <div className='text-desc2 text-main-color '>"We offer wholesale distribution <p>of premium raw materials"</p></div>
@@ -29,9 +29,9 @@ const Text_Mobile = () => (
 
 const Block2 = () => (
   <>
-     <Text_Mobile />
-
-    <div className='flex flex-row justify-center'>
+     <Text_Mobile  />
+     <Text_desc />
+    {/* <div className='flex flex-row justify-center'>
      
       <div className="flex lfex-row ml-[18.75rem] mr-[18.75rem] " >
         <div className="mt-[3.75rem] h-[40.313rem]   ">
@@ -44,7 +44,7 @@ const Block2 = () => (
           <div className="h-[27.5rem] rounded-e-[3.813rem] w-[14.875rem] block bg-main-color"> </div>
         </div>
       </div>
-    </div>
+    </div> */}
   </>
 );
 

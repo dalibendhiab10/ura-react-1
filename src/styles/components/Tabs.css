@@ -4,7 +4,6 @@
   border-top-left-radius: 61px;
   border-bottom-left-radius: 61px;
   color: white;
-  background-color: var(--main-color);
   height: 33.75rem;
   display: flex;
   gap: 16px;
@@ -72,4 +71,39 @@
       margin-left: 1rem;
       margin-bottom: 10rem;
   }
+}
+.tab-details{
+  bottom: 15%;
+  /* box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0.18 );
+  backdrop-filter: blur( 7.5px );
+  -webkit-backdrop-filter: blur( 7.5px ); */
+}
+.tabis{
+  margin-left: 100px;
+  width:1000px;
+  border-radius: 80px;
+  background-size: fit-content;
+}
+.moraba3{
+  position: absolute;
+  bottom:29.2%;
+  background-color: rgba(255,255,255,0.1);
+  backdrop-filter: blur( 7.5px );
+  -webkit-backdrop-filter: blur( 7.5px );
+  width: 350px;
+  height: 200px;
+  left: 6.5%;
+  border-radius: 40px 40px 0px 60px;
+}
+.mostatil{
+  position: absolute;
+  bottom:29.2%;
+  background-color: rgba(255,255,255,0.1);
+  backdrop-filter: blur( 7.5px );
+  -webkit-backdrop-filter: blur( 7.5px );
+  width: 651.124px;
+  height: 80px;
+  left: 29.25%;
+  border-radius: 0px 0px 60px 0px;
+  
 }

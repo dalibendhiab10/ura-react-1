@@ -5,4 +5,4 @@ const About = () => (
   </p>
 )
 
-export default About
+export default About;

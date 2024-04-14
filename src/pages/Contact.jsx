@@ -1,7 +1,7 @@
 import TabsBasic from "../../components/Tabs"
 
 const Contacts = () =>(
-  <></> 
+  <>azedqsdqs</> 
   // <TabsBasic/>
   )
   

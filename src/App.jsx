@@ -9,25 +9,18 @@ import OurProcess from '../components/ProcessComponent';
 import Footer from '../components/FooterComponent';
 import OurCompany from '../components/OurCompanyComponent';
 function App() {
-  useEffect(() => {
-    window.addEventListener("resize", () => {
-      setDesktop(window.innerWidth);
-    });
-  }, []);
-  const [isDesktop, setDesktop] = useState(0);
-
   return (
     <div className='body' >
       
       <div className='bar-web'>
-        
       <Bar/>
       
       </div>
-      <div className='bar-mob relative z-[9999]'>
+       <div className='bar-mob relative z-[9999]'>
       <Nav_mob/>
-      
+
       </div>
+      {/*
       <div className='block-desk'>
       <Block1 /> 
       </div>
@@ -41,7 +34,7 @@ function App() {
       <Block2 />  
       <OurProcess/>
 <OurCompany/>
-      <Footer/>
+      <Footer/> */}
     </div>
   );
 }
