@@ -1,13 +1,22 @@
+/* eslint-disable react/prop-types */
 import {
     Link,
+    useLocation
 } from 'react-router-dom'
-import { useState  } from 'react';
+import { useState ,useEffect } from 'react';
 import BasicDropdown from '../other/Dropdown';
 
-function Bar() {
+function AppInner() {
+    let location = useLocation();
+    return <Bar pathname={location.pathname} />;
+  }
+function Bar({ pathname }) {
     
 
     let [isOpen, setIsOpen] = useState(false);
+    useEffect(() => {
+        console.log(pathname);
+      }, [pathname]);
     return (
             <div>
                 <nav className={` ${isOpen ? 'navbar-toggle' : 'navbar'} `}>
@@ -35,7 +44,7 @@ function Bar() {
             </div>
     )
 }
-export default Bar;
+export default AppInner;
 
 
 

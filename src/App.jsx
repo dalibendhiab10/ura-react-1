@@ -6,7 +6,7 @@ import {
   Routes,
 } from 'react-router-dom'
 import Home from '../src/pages/Home';
-import About from '../src/pages/About';
+import Products from '../src/pages/Products';
 import Contacts from '../src/pages/Contact';
 import {
   BrowserRouter as Router,
@@ -30,7 +30,7 @@ function App() {
         </div>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<Products />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
       </Router>
