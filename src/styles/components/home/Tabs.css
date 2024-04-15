@@ -83,27 +83,74 @@
   width:1000px;
   border-radius: 80px;
   background-size: fit-content;
+
+}
+@media screen and (max-width: 1024px) {
+  .tabis{
+    transform: scale(0.8);
+  }
+  .moraba3{
+    transform: scale(0.8);
+    top:56%;
+    margin-left: -100px;
+    border-radius: 0px;
+   }
+   .mostatil{
+    top:79%;
+    transform: scale(1.108);
+    margin-left: 23px;
+    
+   
+  }
 }
 .moraba3{
   position: absolute;
-  bottom:29.2%;
+  bottom:28.3%;
   background-color: rgba(255,255,255,0.1);
   backdrop-filter: blur( 7.5px );
   -webkit-backdrop-filter: blur( 7.5px );
   width: 350px;
   height: 200px;
   left: 6.5%;
-  border-radius: 40px 40px 0px 60px;
+  border-radius: 0px 40px 0px 30px;
+  /* border: 1px solid;
+  
+  border-color: linear-gradient(192deg, rgba(249,249,251,1) 0%, rgba(255,255,255,0) 100%); ; */
 }
 .mostatil{
   position: absolute;
-  bottom:29.2%;
+  bottom:28.3%;
   background-color: rgba(255,255,255,0.1);
   backdrop-filter: blur( 7.5px );
   -webkit-backdrop-filter: blur( 7.5px );
   width: 651.124px;
   height: 80px;
   left: 29.25%;
-  border-radius: 0px 0px 60px 0px;
-  
+  border-radius: 0px 70px 60px 0px;
+  @media screen and (max-width: 1024px) {
+    border-radius: 0px 0px 60px 0px;
+}
+  /* border-top: 1px solid;
+  border-top-color: aliceblue;   */
+}
+.element {
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Border radius for other corners */
+  position: relative;
+}
+
+.element::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px; /* Adjust the width to control the size of the inverted corner */
+  height: 20px; /* Adjust the height to control the size of the inverted corner */
+  background-color: #fff; /* Set the background color to match the container */
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  transform: rotate(-45deg);
 }

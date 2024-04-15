@@ -12,6 +12,7 @@ import {
   BrowserRouter as Router,
    
 } from 'react-router-dom'
+import Tabs from '../components/Tabs';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
           <Route exact path="/" element={<Home PageTitle="Crum Snack - Home Page" />} />
           <Route path="/about" element={<Products PageTitle="Crum Snack - Products" />} />
           <Route path="/contacts" element={<Contacts PageTitle="Crum Snack - Contact us" />} />
+          <Route path="/Tabs" element={<Tabs/>} />
         </Routes>
       </Router>
 

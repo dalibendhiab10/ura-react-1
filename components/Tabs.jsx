@@ -23,10 +23,13 @@ export default function Tabs() {
     
 
        </div>
-        <img src="/0007 2.png" alt="" className={`absolute bottom-[22%] left-[30%] scale-[0.75] ${btn_index == 0 ? 'opacity-100' : "opacity-0"}`}/>
+        <img src="/0007 2.png" alt="" className={`absolute bottom-[22%] left-[30%] md:bottom-[-10%] md:left-[40%] scale-[0.75] ${btn_index == 0 ? 'opacity-100' : "opacity-0"}`}/>
         <div className='grid grid-rows-2 space-x-0 '>  
+        <div className=''>
         <div className='moraba3'></div>
         <div className='mostatil'></div>
+        </div>
+        
         </div>
       </div>
       <img src='background tabs.svg' className='h-fit w-full' alt=''/>

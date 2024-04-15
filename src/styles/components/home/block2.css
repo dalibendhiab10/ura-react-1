@@ -43,7 +43,7 @@
     .text-mobilee{
         display: show;
     }
-    .text-desc{
+    .text-descc{
         display: none;
     }
 }
@@ -51,7 +51,7 @@
     .text-mobilee{
         display: none;
     }
-    .text-desc{
+    .text-descc{
         display: show;
     }
 }

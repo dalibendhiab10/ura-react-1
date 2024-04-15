@@ -3,7 +3,7 @@ import TabsBasic from "./Tabs";
 
 
 const Text_desc = () => (
-  <div className="text-desc grid grid-flow-col justify-center content-center lg:space-x-[240px] md:space-x-10 mt-10  ">
+  <div className="text-descc grid grid-flow-col justify-center content-center lg:space-x-[240px] md:space-x-10 mt-10  ">
       <div className='grid grid-flow-row space-y-12 pl-[16px] '>
         <div className='text-desc3 text-desc3-mobile '>Raw materials</div>
         <div className='text-desc2 text-desc2-mobile   text-main-color '>"We offer wholesale distribution <p>of premium raw materials"</p></div>
@@ -29,8 +29,13 @@ const Text_Mobile = () => (
 
 const Block2 = () => (
   <>
-     <Text_Mobile  />
-     <Text_desc />
+     <div className="text-mobilee">  
+     <Text_Mobile/>
+     </div>
+     <div className="text-descc">
+     <Text_desc/>
+     </div>
+    
     {/* <div className='flex flex-row justify-center'>
      
       <div className="flex lfex-row ml-[18.75rem] mr-[18.75rem] " >
