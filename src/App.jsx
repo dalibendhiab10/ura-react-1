@@ -29,9 +29,9 @@ function App() {
 
         </div>
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/about" element={<Products />} />
-          <Route path="/contacts" element={<Contacts />} />
+          <Route exact path="/" element={<Home PageTitle="Crum Snack - Home Page" />} />
+          <Route path="/about" element={<Products PageTitle="Crum Snack - Products" />} />
+          <Route path="/contacts" element={<Contacts PageTitle="Crum Snack - Contact us" />} />
         </Routes>
       </Router>
 
