@@ -1,4 +1,4 @@
-import React from 'react'
+/* eslint-disable react/jsx-key */
 import { useState } from 'react';
 
 export default function Tabs() {
