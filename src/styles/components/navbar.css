@@ -36,18 +36,18 @@
   overflow-x: hidden;
 }
 .bar-web {
-  display: inline!important;
+  display: inline !important;
 }
 .bar-mob {
-  display: none!important;
+  display: none !important;
 }
 
 @media screen and (max-width: 769px) {
   .bar-web {
-    display: none!important;
+    display: none !important;
   }
   .bar-mob {
-    display: inline!important;
+    display: inline !important;
   }
 }
 .no-scroll {
@@ -56,7 +56,7 @@
 .scrollable-container {
   overflow-y: auto; /* Enables vertical scrolling */
   max-height: 100vh; /* Adjust this value based on your needs */
- }
+}
 .navbar {
   position: relative;
   z-index: 6;
@@ -168,6 +168,7 @@
     margin-top: 30px;
   }
 }
+
 .image-product-card {
   position: relative;
   z-index: -1;
@@ -242,6 +243,11 @@
   height: 80vh; /* Adjust this value as needed */
   overflow-y: auto;
 }
+.mobile-header {
+  border-radius: 0px 0px 30px 30px;
+  border: 1px solid #00b88f;
+  position: relative;
+}
 /* /* Base styles */
 .bars {
   font-size: 1em;
@@ -291,13 +297,11 @@
   width: 2rem;
 }
 
-.noshadow{
-    box-shadow: none!important;
-    
+.noshadow {
+  box-shadow: none !important;
 }
-.bg-mobile-card{
-    background: rgba(53, 160, 128, 0.5);
-
+.bg-mobile-card {
+  background: rgba(53, 160, 128, 0.5);
 }
 /* Additional styles for aesthetics */
 
@@ -319,4 +323,89 @@
 
 .bars.active > div {
   border-radius: 20px;
+}
+
+.product-card-menu-mobile {
+  z-index: 8;
+  width: 11rem;
+  height: 9rem;
+  margin-top: 45px;
+  gap: 0px;
+  border-radius: 40px 40px 40px 40px;
+  opacity: 0px;
+  background-color: #35a080;
+  overflow: hidden;
+}
+.product-detail-mobile {
+  position: relative;
+  top: 26px;
+  z-index: 11;
+  width: 176px;
+  height: 36px;
+  backdrop-filter: blur(10px);
+  border-top: 0.38px solid;
+  background: rgba(53, 160, 128, 0.5);
+  border-radius: 0 0 40px 40px;
+  @media (max-width: 1024px) {
+    margin-top: -77px;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: -62px;
+  }
+}
+.wrap-product-size {
+  @apply mr-5;
+}
+.wrap-product-size {
+  width: 80vh;
+}
+@media screen and (min-width: 427px) and (max-width: 769px) {
+  .wrap-product-size {
+    width: 118vh;
+  }
+}
+
+@media screen and (min-width: 377px) and (max-width: 426px) {
+  .wrap-product-size {
+    width: 59vh;
+    margin-bottom: 4.5rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 376px) {
+  .wrap-product-size {
+    width: 48.5vh;
+    margin-bottom: 4.5rem;
+  }
+  .product-card-menu-mobile {
+    width: 9rem;
+    height: 7rem;
+  }
+  .product-detail-mobile {
+    width: 144px;
+  }
+  .product-detail-mobile p {
+    margin-left: 1%;
+  }
+  .ul-container {
+    margin-left: 0.7rem;
+  }
+}
+.product-detail-mobile p {
+  margin-left: 11%;
+  margin-top: 3%;
+}
+.scrollable-container {
+  overflow-y: auto;
+}
+.ul-container {
+  @apply mt-20 ml-5;
+}
+.contact-us-btn{
+  @apply text-center  text-white border-white border mb-10 mt-10 rounded-full ; 
+  height: 50px;
+  @media screen and (min-width:427px)and (max-width: 769px) {
+    width: 95%!important;
+    
+  }
 }

@@ -1,5 +1,5 @@
 const Block1_mob = () => (
-    <div className=" -z-7  relative">
+    <div className=" -z-[7]  relative">
       <div className="relative">
         <div className=" image-container " >      
           <img src="/Subtract bg.png" 

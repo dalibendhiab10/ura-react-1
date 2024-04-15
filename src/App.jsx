@@ -1,40 +1,40 @@
 /* eslint-disable react/no-unescaped-entities */
-import { useState , useEffect } from 'react';
-import Bar from '../components/BarComponent';
-import Nav_mob from '../components/mobile-nav';
-import Block1 from '../components/1firstblock';
-import Block1_mob from '../components/firstblock-mob';
-import Block2 from '../components/block2';
-import OurProcess from '../components/ProcessComponent';
-import Footer from '../components/FooterComponent';
-import OurCompany from '../components/OurCompanyComponent';
+import Bar from '../components/bar/BarComponent';
+import Nav_mob from '../components/bar/mobile-nav';
+import {
+  Route,
+  Routes,
+} from 'react-router-dom'
+import Home from '../src/pages/Home';
+import About from '../src/pages/About';
+import Contacts from '../src/pages/Contact';
+import {
+  BrowserRouter as Router,
+   
+} from 'react-router-dom'
+
 function App() {
+
   return (
     <div className='body' >
-      
-      <div className='bar-web'>
-      <Bar/>
-      
-      </div>
-       <div className='bar-mob relative z-[9999]'>
-      <Nav_mob/>
+      <Router>
 
-      </div>
-      {/*
-      <div className='block-desk'>
-      <Block1 /> 
-      </div>
-      <div className='block-mobile'>
-       <Block1_mob />  
-      </div>
-      
-  
-     
-      
-      <Block2 />  
-      <OurProcess/>
-<OurCompany/>
-      <Footer/> */}
+        <div className='bar-web'>
+
+          <Bar />
+
+        </div>
+        <div className='bar-mob relative z-[9999]'>
+          <Nav_mob />
+
+        </div>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contacts" element={<Contacts />} />
+        </Routes>
+      </Router>
+
     </div>
   );
 }
