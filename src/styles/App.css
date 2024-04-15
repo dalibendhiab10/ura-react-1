@@ -12,3 +12,7 @@
 @import url('./components/home/our-company.css');
 @import url('./components/home/our-process.css');
 @import url('./components/home/Tabs.css');
+
+
+/* Product Page */
+@import url('./components/product/product.css');

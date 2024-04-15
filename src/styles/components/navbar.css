@@ -409,3 +409,14 @@
     
   }
 }
+.bg-none {
+  background: none!important;
+  border-bottom: 0.1px solid white!important;
+  @media screen and (max-width: 769px){
+    background: #35a080!important;
+    border: none!important;
+  }
+}
+.bg-navbar{
+  background: #35a080!important;
+}
