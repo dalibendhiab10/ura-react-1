@@ -88,9 +88,16 @@
 }
 
 .btn-color-main:hover {
-  background-color: #00b88f;
-  border: 1px solid #fff;
-  color: #fff;
+  background-color: #fff;
+  border: 1px solid #00b88f;
+  color: #00b88f;
+  -moz-transition: all 180ms ease-in;
+  /* WebKit */
+  -webkit-transition: all 180ms ease-in;
+  /* Opera */
+  -o-transition: all 180ms ease-in;
+  /* Standard */
+  transition: all 180ms ease-in;
 }
 .bg-main {
   background-color: #00b88f;
