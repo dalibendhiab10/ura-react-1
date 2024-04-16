@@ -5,7 +5,7 @@ import { resolve } from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'https://testdali.gaviota.com.tn',
+  base: 'https://medalibendhiab.tech',
 
   plugins: [
     react(),

@@ -12,12 +12,11 @@ import {
   BrowserRouter as Router,
    
 } from 'react-router-dom'
-import Tabs from '../components/Tabs';
 
 function App() {
 
   return (
-    <div className='body' >
+    <div className='body no-scrollbar' >
       <Router>
 
         <div className='bar-web'>
@@ -30,10 +29,9 @@ function App() {
 
         </div>
         <Routes>
-          <Route exact path="/" element={<Home PageTitle="Crum Snack - Home Page" />} />
-          <Route path="/about" element={<Products PageTitle="Crum Snack - Products" />} />
-          <Route path="/contacts" element={<Contacts PageTitle="Crum Snack - Contact us" />} />
-          <Route path="/Tabs" element={<Tabs/>} />
+          <Route exact path="/"   element=    {   <Home     PageTitle="Crum Snack - Home Page"  />} />
+          <Route path="/products"    element=    {   <Products PageTitle="Crum Snack - Products"   />} />
+          <Route path="/contacts" element=    {   <Contacts PageTitle="Crum Snack - Contact us" />} />
         </Routes>
       </Router>
 
