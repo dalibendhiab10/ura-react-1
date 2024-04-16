@@ -36,7 +36,7 @@ function Bar({ pathname }) {
                 <div className='h-[70px] ltr flex flex-row justify-between  items-center nav-wrapper lg:mr-[15.75rem] '>
                     <div className=' w-2/5 h-3/5'>
                         <Link to="/" className='h-full'>
-                            <img src="./logo crum.svg" alt="logo" className='h-full w-full' />
+                            <img src="./assets/logo-white.svg" alt="logo" className='h-full w-full' />
                         </Link>
                     </div>
                     <div className='w-3/5 h-full flex flex-rows items-center space-x-[4.375rem] lg:space-x-[2.5rem]'>
