@@ -1,12 +1,12 @@
-.tabis{
-  margin-left: 100px;
-  width:1000px;
+.tabis_mob{
+  margin-left: 0px;
+  width:100 px;
   border-radius: 80px;
   background-size: fit-content;
 
 }
 @media screen and (max-width: 768px) {
-  .tabis{
+  .tabis_mob{
     transform: scale(0.7);
     margin-left: -21px;
   }
@@ -65,7 +65,7 @@
   left:40%;
 }
 @media screen and (max-width: 1024px) and (min-width: 769px) {
-  .tabis{
+  .tabis_mob{
     transform: scale(0.8);
     margin-left: 10px;
   }

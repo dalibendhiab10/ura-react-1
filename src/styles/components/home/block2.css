@@ -42,6 +42,7 @@
 @media screen and (max-width: 431px){
     .text-mobilee{
         display: show;
+        margin-top: 130px;
     }
     .text-descc{
         display: none;
@@ -50,6 +51,7 @@
 @media screen and (min-width: 431px){
     .text-mobilee{
         display: none;
+        
     }
     .text-descc{
         display: show;

@@ -8,6 +8,8 @@ import {
 import Home from '../src/pages/Home';
 import Products from '../src/pages/Products';
 import Contacts from '../src/pages/Contact';
+import Tabs from '../components/Tabs';
+import Tabs_mob from '../components/Tabs_mob';
 import {
   BrowserRouter as Router,
    
@@ -32,6 +34,7 @@ function App() {
           <Route exact path="/"   element=    {   <Home     PageTitle="Crum Snack - Home Page"  />} />
           <Route path="/products"    element=    {   <Products PageTitle="Crum Snack - Products"   />} />
           <Route path="/contacts" element=    {   <Contacts PageTitle="Crum Snack - Contact us" />} />
+          <Route path="/Tabs" element={<Tabs_mob/>}/>
         </Routes>
       </Router>
 
