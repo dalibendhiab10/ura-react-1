@@ -274,9 +274,14 @@
     width: 250px;
     height: 250px;
   }
-  .bloc1-div,
-  .bloc4 {
-    border-radius: 80px 80px;
+  .forgot-tab{
+    position: relative;
+    left: 10%;
+
+  }
+  .bloc3 {
+    height: 5.25rem;
+    width: 6.8rem;
   }
   .bloc4 {
     width: 100%;
@@ -291,20 +296,10 @@
   .contact-us-texts {
     width: 150%;
   }
-  .bloc3-svg5,
-  .bloc3-svg3,
-  .bloc3-svg4,
-  .bloc3 {
-    display: none;
-  }
-  .bloc2 {
-    background-color: #f0f9f5;
-  }
-  .text-tab {
-    color: black !important;
-  }
+
+
   .mr-12p {
-    margin-right: 0 !important;
+    margin-right: 18.2% !important;
   }
   .g-y-logo {
     row-gap: 0.5rem;
@@ -319,12 +314,6 @@
   }
   .forgot-tab {
     width: 24%;
-  }
-  .social-media-img {
-    display: none;
-  }
-  .social-media-img-tab {
-    display: inline !important;
   }
 }
 
@@ -482,8 +471,8 @@
   }
 }
 
-@media (min-width: 3070px)  {
-  .bloc3{
-    width: 45vh!important;
-  } 
+@media (min-width: 3070px) {
+  .bloc3 {
+    width: 45vh !important;
+  }
 }
