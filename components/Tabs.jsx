@@ -8,7 +8,7 @@ export default function Tabs() {
   console.log(btn_index);
   return (
   <>
-    <div className='tabis'>
+    <div className='tabis relative'>
       <div className='  rounded-[40px] ml-11 mt-11'>
         <div className='flex flex-row text-white pt-4 absolute'>
         {tabs_btn.map((tab, index) => (
@@ -23,16 +23,12 @@ export default function Tabs() {
     
 
        </div>
-        <img src="/0007 2.png" alt="" className={`absolute bottom-[22%] left-[30%] md:bottom-[-10%] md:left-[40%] scale-[0.75] ${btn_index == 0 ? 'opacity-100' : "opacity-0"}`}/>
-        <div className='grid grid-rows-2 space-x-0 '>  
-        <div className=''>
+        <img src="/0007 2.png" alt="" className={`absolute imaaage scale-[0.75] ${btn_index == 0 ? 'opacity-100' : "opacity-0"}`}/>
+        <img src='background tabs.svg' className='h-fit w-full' alt=''/>
         <div className='moraba3'></div>
         <div className='mostatil'></div>
-        </div>
-        
-        </div>
+        {/* <button className='absolute'>View more</button> */}
       </div>
-      <img src='background tabs.svg' className='h-fit w-full' alt=''/>
     </div>
   </>
   )

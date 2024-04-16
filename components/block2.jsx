@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import TabsBasic from "./Tabs";
+import Tabs from "./Tabs";
 
 
 const Text_desc = () => (
@@ -29,27 +29,17 @@ const Text_Mobile = () => (
 
 const Block2 = () => (
   <>
+     <div className="pb-[50px]">
      <div className="text-mobilee">  
      <Text_Mobile/>
      </div>
      <div className="text-descc">
      <Text_desc/>
      </div>
-    
-    {/* <div className='flex flex-row justify-center'>
-     
-      <div className="flex lfex-row ml-[18.75rem] mr-[18.75rem] " >
-        <div className="mt-[3.75rem] h-[40.313rem]   ">
-          <TabsBasic />
-        </div>
-        <div>
-          <div className="mt-[7.125rem]">
-            <img src="/corner.png" alt="" />
-          </div>
-          <div className="h-[27.5rem] rounded-e-[3.813rem] w-[14.875rem] block bg-main-color"> </div>
-        </div>
+      <div className="w-full grid grid-flow-col justify-center">
+      <Tabs/>
       </div>
-    </div> */}
+     </div>
   </>
 );
 
