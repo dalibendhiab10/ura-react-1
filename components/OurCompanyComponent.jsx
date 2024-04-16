@@ -5,7 +5,7 @@ const OurCompany = () => {
             <div className="pc-tab-container bg-[#CBE8DE]">
 
                 <div className="company-container">
-                    <button className="btn-company relative">discover</button>
+                    <button className="btn-company relative">Discover</button>
 
                     <svg viewBox="0 0 1320 570" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ width: "80%", height: "80%" }}>
                         <mask id="mask0_249_489" style={{ maskType: "alpha" }} maskUnits="userSpaceOnUse" x="0" y="0" width="1320" height="570">
@@ -47,7 +47,7 @@ const OurCompany = () => {
                     <h1 className="text-desc3 text-desc3-ourcompany  text-black">Raw Materials</h1>
                     <p className="text-desc2" style={{ color: "#00B88F" }}>Our team of experts is at the side of food companies to maximize their results, with the flexibility.</p>
                 </div>
-                <button className="btn-company-mobile relative">discover</button>
+                <button className="btn-company-mobile relative">Discover</button>
                 <svg width="100%" height="100%" viewBox="0 0 388 421" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <mask id="mask0_349_36" style={{ maskType: 'alpha' }} maskUnits="userSpaceOnUse" x="0" y="0" width="388" height="421">
                         <path d="M348 421H40C17.9086 421 0 403.091 0 381V347C0 324.909 17.9086 307 40 307H103.5C125.591 307 143.5 289.091 143.5 267V230.5C143.5 208.409 125.591 190.5 103.5 190.5H40C17.9086 190.5 0 172.591 0 150.5V40C0 17.9086 17.9086 0 40 0H348C370.091 0 388 17.9086 388 40V381C388 403.091 370.091 421 348 421Z" fill="#72BDA7" />

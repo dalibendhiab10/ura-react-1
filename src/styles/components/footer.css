@@ -481,3 +481,9 @@
     margin-right: 0;
   }
 }
+
+@media (min-width: 3070px)  {
+  .bloc3{
+    width: 45vh!important;
+  } 
+}

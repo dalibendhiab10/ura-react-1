@@ -107,7 +107,7 @@ const OurProcess = () => {
                 className={`btn-color-main text-btn-main rounded-full w-max h-[40px] btn-discover-process mt-[60px] }`}
 
             >
-                discover
+                Discover
             </button>
         </div>
     );
