@@ -1,12 +1,15 @@
 
 import React from 'react'
+import { useState } from 'react';
 
 export default function Tabs_mob() {
-  return (
+    const tabs_btn=["Die cut pellets","Laminated","Micropellet","Strip","Raw materials"];
+    let [btn_index, setbtnindex] = useState(0);
+    return (
     <>
     <div className='tabis_mob relative'>
-      <div className='  rounded-[40px] ml-11 mt-11'>
-        <div className='flex flex-row text-white pt-4 absolute'>
+      <div className='rounded-[40px]'>
+        <div className='buttons-tabs flex flex-row text-white pt-4 absolute'>
         {tabs_btn.map((tab, index) => (
             <div className='flex-none'>
               <button 
@@ -16,8 +19,8 @@ export default function Tabs_mob() {
             </div>
         ))}
        </div>
-        <img src="/0007 2.png" alt="" className={`absolute imaaage scale-[0.75] ${btn_index == 0 ? 'opacity-100' : "opacity-0"}`}/>
-        {/* <img src='tabs_mob.svg' className='' alt=''/> */}
+        <img src="/0007 2.png" alt="" className={`absolute imaaage  ${btn_index == 0 ? 'opacity-100' : "opacity-0"}`}/>
+        <img src='tabs_mob.svg' className='' alt=''/>
         <div className='moraba3'></div>
         <div className='mostatil'></div>
         <div className='container-corner'>
