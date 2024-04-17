@@ -59,7 +59,7 @@
   padding-left: 3rem;
 }
 .m-l-8rem {
-  margin-left: 8rem;
+  margin-left: 9rem;
 }
 .p-t-67 {
   padding-top: 4.188rem;
@@ -113,7 +113,7 @@
   border-radius: 0px 0px 80px 0px;
 }
 .mr-7p {
-  margin-right: 7%;
+  margin-right: 6.6%;
 }
 .w-225 {
   width: 15.95%;
@@ -163,16 +163,16 @@
 
 @media (min-width: 1025px) and (max-width: 1440px) {
   .mr-12p {
-    margin-right: 12.8% !important;
+    margin-right: 12.45% !important;
   }
   .bloc3 {
-    width: 17.6rem;
+    width: 17.5rem;
   }
   .bloc4 {
     height: 70px;
   }
   .margin-bloc1 {
-    margin-left: 6.25rem !important;
+    margin-left: 9rem !important;
     margin-top: 1.25rem !important;
   }
   .bloc1-div {
@@ -281,7 +281,10 @@
   }
   .bloc3 {
     height: 5.25rem;
-    width: 6.8rem;
+    width: 3.99rem;
+  }
+  .mr-7p {
+    margin-right: 9.6%;
   }
   .bloc4 {
     width: 100%;
@@ -299,7 +302,7 @@
 
 
   .mr-12p {
-    margin-right: 18.2% !important;
+    margin-right: 20.9% !important;
   }
   .g-y-logo {
     row-gap: 0.5rem;

@@ -4,7 +4,7 @@ import Tabs_mob from "./Tabs_mob";
 
 
 const Text_desc = () => (
-  <div className="text-descc grid grid-flow-col justify-center content-center lg:space-x-[240px] md:space-x-10 mt-10  ">
+  <div className="text-descc grid grid-flow-col justify-evenly	 lg:space-x-[165px] md:space-x-10 mt-10  ">
       <div className='grid grid-flow-row space-y-12 pl-[16px] '>
         <div className='text-desc3 text-desc3-mobile '>Raw materials</div>
         <div className='text-desc2 text-desc2-mobile   text-main-color '>"We offer wholesale distribution <p>of premium raw materials"</p></div>

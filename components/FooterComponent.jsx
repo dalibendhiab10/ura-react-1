@@ -31,7 +31,7 @@ const Footer = () => {
                         <img src="assets/footer/footercomponent/other/5.svg" className=" w-[80px] h-[80px] bloc3-svg5" />
 
                         <div className="bg-main  bloc3 "></div>
-                        <img src="assets/footer/footercomponent/other/4.svg" className="h-[83px] w-[81px] bloc3-svg4" />
+                        <img src="assets/footer/footercomponent/other/4.svg" className="h-[84px] w-[82px] bloc3-svg4" />
 
                     </div>
                     <div className="flex justify-end mr-12p ">
