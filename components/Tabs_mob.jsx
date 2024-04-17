@@ -9,7 +9,7 @@ export default function Tabs_mob() {
     <>
     <div className='tabis_mob relative'>
       <div className='rounded-[40px]'>
-        <div className='buttons-tabs flex flex-row text-white pt-4 absolute'>
+        <div className='buttons-tabs_mob flex flex-row text-white pt-4 absolute'>
         {tabs_btn.map((tab, index) => (
             <div className='flex-none'>
               <button 
@@ -19,12 +19,12 @@ export default function Tabs_mob() {
             </div>
         ))}
        </div>
-        <img src="/0007 2.png" alt="" className={`absolute imaaage  ${btn_index == 0 ? 'opacity-100' : "opacity-0"}`}/>
+        <img src="/0007 2.png" alt="" className={`absolute imaaage_mob  ${btn_index == 0 ? 'opacity-100' : "opacity-0"}`}/>
         <img src='tabs_mob.svg' className='' alt=''/>
-        <div className='moraba3'></div>
-        <div className='mostatil'></div>
-        <div className='container-corner'>
-          <div className='curved-corner-bottomright'></div>
+        <div className='moraba3_mob'></div>
+        <div className='mostatil_mob'></div>
+        <div className='container-corner_mob'>
+          <div className='curved-corner-bottomright_mob'></div>
         </div>
         {/* <button className='absolute'>View more</button> */}
       </div>

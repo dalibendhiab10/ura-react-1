@@ -1,89 +1,82 @@
 .tabis_mob{
-  margin-left: 0px;
+  margin-top:40px;
+  margin-left: 20px;
   width: 387px;
   border-radius: 80px;
   background-size: fit-content;
-  background-color: #000000;
+  background-color: transparent;
 }
 
-.moraba3{
+.moraba3_mob{
   position: absolute;
-  bottom: 0%;
+  bottom: -0.2%;
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(7.5px);
   -webkit-backdrop-filter: blur(7.5px);
   width: 246px;
   height: 193px;
   left: -0.5%;
-  border-radius: 0px 40px 0px 56px;
+  border-radius: 60px 60px 0px 42px;
+  border-top: 1px solid;
+  
   /* border: 1px solid;
   
   border-color: linear-gradient(192deg, rgba(249,249,251,1) 0%, rgba(255,255,255,0) 100%); ; */
 }
-.mostatil{
+.mostatil_mob{
   position: absolute;
-  bottom: 0%;
+  bottom: -0.2%;
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(7.5px);
   -webkit-backdrop-filter: blur(7.5px);
-  width: 142.124px;
-  height: 102px;
-  left: 63.1%;
-  border-radius: 20px 0px 21px 0px;
+  width: 143.6px;
+  height: 103px;
+  left: 243.6px;
+  border-radius: 0px 30px 42px 0px;
+  border-top: 1px solid;
   /* border-top: 1px solid;
   border-top-color: aliceblue;   */
 }
-.element {
-  width: 200px;
-  height: 200px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  border-radius: 5px; /* Border radius for other corners */
-  position: relative;
-}
 
-.element::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 20px; /* Adjust the width to control the size of the inverted corner */
-  height: 20px; /* Adjust the height to control the size of the inverted corner */
-  background-color: #fff; /* Set the background color to match the container */
-  border-top: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  transform: rotate(-45deg);
-}
-.imaaage{
+.imaaage_mob{
   transform: scale(0.8);
-    bottom: 13%;
+    bottom: 14.9%;
     left: 0%;
 }
-.curved-corner-bottomright:before {
+.curved-corner-bottomright_mob:before {
   background-color: rgba(255, 255, 255, 0);
+  border: 1px solid;
   content: "";
+  overflow: hidden;
   display: block;
   width: 200px;
   height: 200px;
   position: absolute;
   overflow: hidden;
-  border-radius: 30%;
+  border-radius: 20%;
   bottom: 0;
   right: 100;
   box-shadow: -100px 100px 0px 0px rgba(255, 255, 255, 0.1);
 }
-.container-corner{
+.container-corner_mob{
   position: absolute;
   overflow: hidden;
-  left: 244px;
+  right: 43.4121px;
   top: 276px;
   width: 100px;
   height: 100px;
   background-color: rgba(255, 255, 255, 0);
 }
-.buttons-tabs{
+.buttons-tabs_mob{
   width: 321px;
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
   border-radius: 0px 42px 0px 0px;
   margin-left: -7px;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
 }
+.buttons_tabs_mob::-webkit-scrollbar {
+  display: none;
+}
+

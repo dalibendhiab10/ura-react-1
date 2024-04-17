@@ -29,7 +29,7 @@ export default function Tabs() {
         <div className='container-corner'>
           <div className='curved-corner-bottomright'></div>
         </div>
-        {/* <button className='absolute'>View more</button> */}
+        <button className='flex justify-center align-middle  absolute buttton_tabs text-btn-main text-main-color'>Discover</button>
       </div>
     </div>
   </>

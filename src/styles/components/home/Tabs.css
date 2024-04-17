@@ -97,3 +97,12 @@
   height: 100px;
   background-color: rgba(255, 255, 255, 0);
 }
+.buttton_tabs{
+  padding-top: 10px;
+  width: 191px;
+  height: 38px;
+  top: 350.57px;
+  left: 90px;
+  border-radius: 37px;
+  background-color: #FFFFFF;
+}
