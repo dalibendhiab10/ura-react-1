@@ -84,3 +84,21 @@
         margin-left: 0rem;
     }
 }
+@media screen and (max-width: 431px){
+    .tabs-mob-show{
+        display: show;
+    }
+    .tabs-desc-show
+    {
+        display: none;
+    }
+}
+@media screen and (min-width: 431px){
+    .tabs-mob-show{
+        display: none;
+    }
+    .tabs-desc-show
+    {
+        display: show;
+    }
+}

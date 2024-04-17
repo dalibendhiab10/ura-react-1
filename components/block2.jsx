@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Tabs from "./Tabs";
+import Tabs_mob from "./Tabs_mob";
 
 
 const Text_desc = () => (
@@ -38,6 +39,7 @@ const Block2 = () => (
      </div>
       <div className="w-full grid grid-flow-col justify-center">
       <Tabs/>
+      <Tabs_mob/>
       </div>
      </div>
   </>

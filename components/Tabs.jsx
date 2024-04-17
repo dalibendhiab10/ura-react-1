@@ -7,7 +7,7 @@ export default function Tabs() {
   let [btn_index, setbtnindex] = useState(0);
   return (
   <>
-    <div className='tabis relative'>
+    <div className='tabis relative tabs-desc-show'>
       <div className='  rounded-[40px] ml-11 mt-11'>
         <div className='flex flex-row text-white pt-4 absolute'>
         {tabs_btn.map((tab, index) => (
@@ -29,7 +29,7 @@ export default function Tabs() {
         <div className='container-corner'>
           <div className='curved-corner-bottomright'></div>
         </div>
-        <button className='flex justify-center align-middle  absolute buttton_tabs text-btn-main text-main-color'>Discover</button>
+        <button className='flex justify-center align-middle  absolute button_tabs_desc text-btn-main text-main-color'>Discover</button>
       </div>
     </div>
   </>

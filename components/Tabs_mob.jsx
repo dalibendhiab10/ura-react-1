@@ -7,7 +7,7 @@ export default function Tabs_mob() {
     let [btn_index, setbtnindex] = useState(0);
     return (
     <>
-    <div className='tabis_mob relative'>
+    <div className='tabis_mob relative tabs-mob-show'>
       <div className='rounded-[40px]'>
         <div className='buttons-tabs_mob flex flex-row text-white pt-4 absolute'>
         {tabs_btn.map((tab, index) => (
@@ -26,8 +26,8 @@ export default function Tabs_mob() {
         <div className='container-corner_mob'>
           <div className='curved-corner-bottomright_mob'></div>
         </div>
-        {/* <button className='absolute'>View more</button> */}
       </div>
+        <button className='flex justify-center align-middle  absolute button_tabs_mob text-btn-main text-main-color'>Discover</button>
     </div>
   </>
   )

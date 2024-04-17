@@ -7,6 +7,7 @@
   background-color: transparent;
 }
 
+
 .moraba3_mob{
   position: absolute;
   bottom: -0.2%;
@@ -17,7 +18,7 @@
   height: 193px;
   left: -0.5%;
   border-radius: 60px 60px 0px 42px;
-  border-top: 1px solid;
+  /* border-top: 1px solid; */
   
   /* border: 1px solid;
   
@@ -33,7 +34,7 @@
   height: 103px;
   left: 243.6px;
   border-radius: 0px 30px 42px 0px;
-  border-top: 1px solid;
+  /* border-top: 1px solid; */
   /* border-top: 1px solid;
   border-top-color: aliceblue;   */
 }
@@ -45,7 +46,7 @@
 }
 .curved-corner-bottomright_mob:before {
   background-color: rgba(255, 255, 255, 0);
-  border: 1px solid;
+  /* border: 1px solid; */
   content: "";
   overflow: hidden;
   display: block;
@@ -79,4 +80,12 @@
 .buttons_tabs_mob::-webkit-scrollbar {
   display: none;
 }
-
+.button_tabs_mob{
+  padding-top: 10px;
+  width: 191px;
+  height: 38px;
+  top: 350.57px;
+  left: 90px;
+  border-radius: 37px;
+  background-color: #FFFFFF;
+}
