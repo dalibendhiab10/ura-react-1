@@ -39,10 +39,10 @@ function Bar({ pathname }) {
                             <img src="./assets/logo-white.svg" alt="logo" className='h-full w-full' />
                         </Link>
                     </div>
-                    <div className='w-3/5 h-full flex flex-rows items-center space-x-[4.375rem] lg:space-x-[2.5rem]'>
+                    <div className='nav-items-buttons flex flex-rows items-center '>
 
-                        <ul className='navbar-text ml-20 text-white flex text-nowrap space-x-[29px] items-center max-md:hidden '>
-                            <li onClick={handleclick} className='navbar-text noshadow flex cursor-pointer' >products
+                        <ul className='navbar-text ml-10 text-white flex text-nowrap space-x-[29px] items-center max-md:hidden '>
+                            <li onClick={handleclick} className='navbar-text noshadow flex cursor-pointer' >Products
                                 <svg className="w-2.5 h-2.5 ms-2.5 cursor-pointer" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
                                 </svg>
@@ -55,7 +55,7 @@ function Bar({ pathname }) {
 
 
 
-                        <div className='h-3/5 ml-8 '>
+                        <div className='h-3/5 ml-16 '>
                             <button className="h-full w-full text-white navbar-text text-nowrap rounded-full border-white border px-8">Contact Us</button>
                         </div>
                     </div>

@@ -5,7 +5,6 @@ export default function Tabs() {
   
   const tabs_btn=["Die cut pellets","Laminated","Micropellet","Strip","Raw materials"];
   let [btn_index, setbtnindex] = useState(0);
-  console.log(btn_index);
   return (
   <>
     <div className='tabis relative'>

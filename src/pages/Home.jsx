@@ -8,27 +8,33 @@ import Footer from '../../components/FooterComponent';
 import OurCompany from '../../components/OurCompanyComponent';
 import { useEffect } from 'react';
 
-const Home = ({PageTitle}) => {
+const Home = ({ PageTitle }) => {
   useEffect(() => {
     document.title = PageTitle;
   }, [PageTitle]);
 
   return (
     <>
-      <div className='block-desk'>
+      <div className='block-desk '>
         <Block1 />
       </div>
-      <div className='block-mobile'>
+      <div className='block-mobile '>
         <Block1_mob />
       </div>
 
 
+      <div className='mt-14'>
 
-
-      <Block2 />
-      <OurProcess />
+        <Block2 />
+      </div>
+      <div className='mt-28 md:mt-14'>
+        <OurProcess />
+      </div>
       <OurCompany />
-      <Footer />
+      <div className='mt-40 md:mt-16'>
+
+        <Footer />
+      </div>
     </>)
 }
 

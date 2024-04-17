@@ -24,7 +24,7 @@ const Footer = () => {
 
                         <img src="assets/footer/footercomponent/other/3.svg" className=" w-[80px] h-[80px] bloc3-svg3" />
                         <Contact />
-                        <MobileFooter/>
+                        <MobileFooter />
 
                     </div>
                     <div className="flex justify-end mr-7p  items-center">

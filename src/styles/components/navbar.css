@@ -420,3 +420,8 @@
 .bg-navbar{
   background: #35a080!important;
 }
+.nav-items-buttons{
+  width: 80vh; 
+  @apply h-full;
+
+}

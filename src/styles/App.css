@@ -2,8 +2,7 @@
 
 @import url('./components/footer.css');
 @import url('./components/navbar.css');
-
-
+@import url('./base/typography.css');
 /* Home Page  */
 
 @import url('./components/home/1block.css');
@@ -16,4 +15,3 @@
 
 /* Product Page */
 @import url('./components/product/product.css');
-@import url('./components/home/Tabs_mob.css');

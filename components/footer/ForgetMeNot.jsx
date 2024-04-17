@@ -2,6 +2,7 @@
 const Forget = () => {
     return (
         <>
+        
             <div className="flex flex-col footer-left g-y-logo pt-[5%] ">
                 <img src="assets/logo-black.svg" className="adress-logo" alt="logo" />
                 <div className="flex flex-col gap-y-4">
