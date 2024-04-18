@@ -29,6 +29,7 @@ export default function Tabs() {
         <div className='container-corner'>
           <div className='curved-corner-bottomright'></div>
         </div>
+        <img src='Asset 1.png' className='absolute cadree' alt=''/>
         <button className='flex justify-center align-middle  absolute button_tabs_desc text-btn-main text-main-color'>Discover</button>
       </div>
     </div>
