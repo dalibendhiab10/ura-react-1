@@ -11,7 +11,7 @@ const Foo = () => {
                 <div className="flex-d  ">
 
                     <div className="  bloc1  rounded-l-[80px] rounded-tr-[80px] ">
-                        <div className="grid grid-col-template  absolute">
+                        <div className="flex flex-row   items-center  absolute">
                             <Contactus />
                         </div>
                     </div>

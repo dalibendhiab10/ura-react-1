@@ -42,17 +42,17 @@
 }
 @media screen and (min-width:1920px) {
   .svg-potion-laptop {
-    top: 0;
+    top: 60px;
     left: 28vh;
     width: 96%;
-    height: 50vh;
-  }
+    height: 39vh;
+}
   
-  .contact-text-position{
-    top: 0;
-    left: 51vh;
-  
-  }
+.contact-text-position {
+  top: 60px;
+  left: 71vh;
+  width: 100%;
+}
 }
 @media screen and (min-width:1024px) and (max-width:1441px){
   .bg-footer-svg {

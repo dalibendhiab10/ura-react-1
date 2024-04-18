@@ -19,17 +19,18 @@ const Contactus = () => (
 
             </defs>
         </svg>
-        <div className="flex flex-col contact-text justify-evenly  relative contact-text-position" >
+        <div className="flex flex-col contact-text content-center  relative contact-text-position" >
 
-            <div><h2 className="text-h2  text-white contact-title ">
-                Got an idea?
+            <div className="2xl:pb-11">
+                <h2 className="text-h2  text-white contact-title got-idea ">
+                    Got an idea?
 
-            </h2>
+                </h2>
                 <h2 className="text-h2 text-white contact-title">
                     Let’s talk.
                 </h2>
             </div>
-            <p className="text-desc3  text-white opacity-80  contact-usdesc3">
+            <p className="text-desc3  text-white opacity-80  contact-usdesc3 ">
                 Our team of experts is always at the service of our clients.
             </p>
             <button className="btn-color-main  text-btn-main rounded-full contact-us-button">Contact us</button>

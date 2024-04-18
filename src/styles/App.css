@@ -1,44 +1,88 @@
 /* global Imports */
 
-@import url('./components/footer.css');
-@import url('./components/navbar.css');
-@import url('./base/typography.css');
+@import url("./components/footer.css");
+@import url("./components/navbar.css");
+@import url("./base/typography.css");
 /* Home Page  */
 
-@import url('./components/home/1block.css');
-@import url('./components/home/block2.css');
-@import url('./components/home/contact-us.css');
-@import url('./components/home/our-company.css');
-@import url('./components/home/our-process.css');
-@import url('./components/home/Tabs.css');
-@import url('./components/home/Tabs_mob.css');
+@import url("./components/home/1block.css");
+@import url("./components/home/block2.css");
+@import url("./components/home/contact-us.css");
+@import url("./components/home/our-company.css");
+@import url("./components/home/our-process.css");
+@import url("./components/home/Tabs.css");
+@import url("./components/home/Tabs_mob.css");
 
 /* Product Page */
-@import url('./components/product/product.css');
-
-
+@import url("./components/product/product.css");
 
 .union-icon {
-    align-self: stretch;
-    position: relative;
-    overflow: hidden;
+  align-self: stretch;
+  position: relative;
+  overflow: hidden;
 
-    background: url('./footerSvgs/union.svg') no-repeat center center;
-    background-size: contain;
-  }
-  .union-parent {
-
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0.625rem;
-    box-sizing: border-box;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-@media screen {
-  
+  background: url("./footerSvgs/union.svg") no-repeat center center;
+  background-size: contain;
 }
+.union-parent {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.625rem;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px)  {
+  .svg-potion-laptop {
+    top: 26vh;
+    left: 23vh;
+    width: 30vw;
+  }
+  .contact-title {
+    font-size: 7vh;
+  }
+  .contact-text {
+    gap: 0;
+  }
+  .got-idea {
+    margin: 0;
+    height: 50px;
+  }
+  .contact-text-position {
+    top: 26vh;
+    left: 60vh;
+  }
+  .contact-usdesc3{
+   @apply pb-4;
+  }
+}
+/* @media screen and (min-width:769px) and (max-width:1024px) {
+  .svg-potion-laptop {
+    top: 22vh;
+    left: 23vh;
+    width: 32vw;
+}
+  .contact-title {
+    font-size: 7vh;
+  }
+  .contact-text {
+    gap: 0;
+  }
+  .got-idea {
+    margin: 0;
+    height: 50px;
+  }
+  .contact-text-position {
+    top: 24vh;
+    left: 28vh;
+  }
+  .got-idea {
+    margin: 0;
+    height: 50px;
+  }
+
+} */
