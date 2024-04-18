@@ -3,7 +3,7 @@ const Forget = () => {
     return (
         <>
         
-            <div className="flex flex-col footer-left g-y-logo pt-[5%] pl-[10.2%]">
+            <div className="flex flex-col footer-left g-y-logo pt-[4%] pr-[7.4%]">
                 <img src="assets/logo-black.svg" className="adress-logo" alt="logo" />
                 <div className="flex flex-col gap-y-4">
                     <p className="text-main-color footer-title">Address</p>
@@ -14,7 +14,7 @@ const Forget = () => {
                 </div>
 
             </div>
-            <div className="footer-left flex flex-col gap-y-4 m-l-8rem pt-[5.7%] forgot-tab">
+            <div className="footer-left flex flex-col gap-y-4 m-l-8rem pt-[4%] forgot-tab">
                 <p className="footer-title text-main-color">Forget-Me-Not</p>
                 <div className="flex flex-col g-y-22">
                     <a className="adress-content" href=""> Products</a>

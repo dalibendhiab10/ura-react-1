@@ -59,7 +59,8 @@
   padding-left: 3rem;
 }
 .m-l-8rem {
-  margin-left: 9rem;
+  margin-left: 5.2rem;
+  margin-right: 2.8rem;
 }
 .p-t-67 {
   padding-top: 4.188rem;
@@ -113,13 +114,14 @@
   border-radius: 0px 0px 80px 0px;
 }
 .mr-7p {
-  margin-right: 6.6%;
+  margin-right: 7%;
 }
 .w-225 {
   width: 15.95%;
 }
 .mr-12p {
   margin-right: 17.85% !important;
+  margin-bottom: 13%;
 }
 .w-80p {
   width: 90%;
@@ -163,16 +165,16 @@
 
 @media (min-width: 1025px) and (max-width: 1440px) {
   .mr-12p {
-    margin-right: 12.45% !important;
+    margin-right: 12.8% !important;
   }
   .bloc3 {
-    width: 17.5rem;
+    width: 17.6rem;
   }
   .bloc4 {
     height: 70px;
   }
   .margin-bloc1 {
-    margin-left: 9rem !important;
+    margin-left: 6.25rem !important;
     margin-top: 1.25rem !important;
   }
   .bloc1-div {
@@ -281,10 +283,7 @@
   }
   .bloc3 {
     height: 5.25rem;
-    width: 3.99rem;
-  }
-  .mr-7p {
-    margin-right: 9.6%;
+    width: 6.8rem;
   }
   .bloc4 {
     width: 100%;
@@ -302,7 +301,7 @@
 
 
   .mr-12p {
-    margin-right: 20.9% !important;
+    margin-right: 18.2% !important;
   }
   .g-y-logo {
     row-gap: 0.5rem;
@@ -339,8 +338,8 @@
   width: 70%;
 }
 .margin-bloc1 {
-  margin-left: 9.7rem;
-  margin-top: 1.25rem;
+    margin-left: 9.7rem;
+    margin-top: 5rem;
 }
 .mobile-contactinf {
   width: 20rem;
@@ -479,3 +478,23 @@
     width: 45vh !important;
   }
 }
+
+.bg-footer-svg {
+  background-image: url('./footerSvgs/laptop.svg');
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+}
+
+@media (max-width: 600px) {
+  .bg-footer-svg {
+    background-size: 50%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  .bg-footer-svg {
+    background-size: 98%;
+  }
+}
+

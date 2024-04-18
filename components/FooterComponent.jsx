@@ -6,37 +6,35 @@ import MobileFooter from "./footer/Footermobile";
 const Footer = () => {
     return (
         <>
-            <div className="px-5	py-5	">
+            <div className="px-5	py-5  bg-footer-svg 	">
                 <div className="flex-d  ">
 
-                    <div className="bg-main  bloc1 bloc1-div rounded-l-[80px] rounded-tr-[80px] ">
-                        <div className="grid grid-col-template  margin-bloc1">
+                    <div className="  bloc1  rounded-l-[80px] rounded-tr-[80px] ">
+                        <div className="grid grid-col-template  absolute">
                             <Contactus />
                         </div>
                     </div>
 
                 </div>
-                <div className="flex flex-col justify-end  ">
+                <div className="flex flex-col justify-end  opacity-0">
 
                     <div className="flex justify-end contentfooter">
 
                         <Forget />
 
-                        <img src="assets/footer/footercomponent/other/3.svg" className=" w-[80px] h-[80px] bloc3-svg3" />
-                        <Contact />
-                        <MobileFooter />
+                        {/* <Contact /> */}
+                        {/* <MobileFooter /> */}
 
                     </div>
+                    
                     <div className="flex justify-end mr-7p  items-center">
-                        <img src="assets/footer/footercomponent/other/5.svg" className=" w-[80px] h-[80px] bloc3-svg5" />
 
-                        <div className="bg-main  bloc3 "></div>
-                        <img src="assets/footer/footercomponent/other/4.svg" className="h-[84px] w-[82px] bloc3-svg4" />
+                        <div className="  bloc3 "></div>
 
                     </div>
                     <div className="flex justify-end mr-12p ">
 
-                        <div className="bg-main w-80p bloc4 rounded-l-[80px] rounded-br-[80px]  ">
+                        <div className=" w-80p bloc4 rounded-l-[80px] rounded-br-[80px]  ">
                             <p className=" pl-6 text-btn-nav text-white">© 2024 CrumSnack</p>
                             <div className="flex   pr-6 ">
 

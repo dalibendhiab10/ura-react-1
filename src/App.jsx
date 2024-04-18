@@ -21,7 +21,7 @@ function App() {
     <div className='body no-scrollbar' >
       <Router>
 
-        <div className='bar-web'>
+        <div className='bar-web w-svw'>
 
           <Bar />
 

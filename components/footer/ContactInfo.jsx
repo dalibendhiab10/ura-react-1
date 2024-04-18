@@ -2,7 +2,7 @@ const Contact = () => {
 
     return (
         <>
-            <div className="bg-main w-[32.95%] h-[50%]  bloc2	pb-12 ">
+            <div className=" w-[32.95%] h-[50%]  bloc2	pb-12 ">
                 <div className="footer-contact flex flex-col gap-y-4 ">
                     <p className="footer-title text-white text-tab">Contact us</p>
                     <div className="flex flex-col">

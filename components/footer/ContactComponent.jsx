@@ -1,6 +1,6 @@
 const Contactus = () => (
     <>
-        <svg width="500" height="350" viewBox="0 0 596 350" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+        <svg width="500" height="350" viewBox="0 0 596 350" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className="relative svg-potion-laptop">
             <mask id="mask0_307_4703" style={{ maskType: "alpha" }} maskUnits="userSpaceOnUse" x="0" y="0" width="596" height="350">
                 <path d="M0.703378 80.0005C0.703103 35.8175 36.5204 -2.29894e-06 80.7034 -5.13482e-06L245.501 -1.57123e-05C278.523 -1.78318e-05 305.292 26.7696 305.292 59.7916C305.292 92.8136 332.062 119.583 365.084 119.583L515.703 119.583C559.886 119.583 595.703 155.4 595.703 199.583L595.703 270C595.703 314.183 559.886 350 515.703 350L80.7045 350C36.5219 350 0.704833 314.183 0.704558 270.001L0.703378 80.0005Z" fill="#D9D9D9" />
             </mask>
@@ -19,7 +19,7 @@ const Contactus = () => (
 
             </defs>
         </svg>
-        <div className="flex flex-col contact-text justify-evenly contact-us-texts " >
+        <div className="flex flex-col contact-text justify-evenly  relative contact-text-position" >
 
             <div><h2 className="text-h2  text-white contact-title ">
                 Got an idea?

@@ -4,22 +4,15 @@
 .contact-us {
   border-radius: 80px 80px 0px 80px;
   color: #fff;
-  width: 100%;
+  width: 80vh;
   height: 50%;
   padding: 3% 0 0 0%;
   border-radius: 80px 80px 0px 80px;
 }
-.contact-us svg {
-  width: 100%;
-  height: 80%;
-  margin-top: 0%;
 
-  
-}
 
 .contact-text {
   gap: 4px;
-  margin-left: 10%;
 }
 
 .contact-text p {
@@ -37,13 +30,32 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.svg-potion-laptop {
+  top: 23vh;
+  left: 23vh;
+}
 
+.contact-text-position{
+  top: 23vh;
+  left: 27vh;
 
-@media screen and (min-width:321px) and (max-width:768px){
-  .contact-us{
-    padding : 0% 0 0 0%;
+}
+@media screen and (min-width:1920px) {
+  .svg-potion-laptop {
+    top: 0;
+    left: 28vh;
+    width: 96%;
+    height: 50vh;
   }
-  .contact-us svg{
-    margin-top: -25%;
+  
+  .contact-text-position{
+    top: 0;
+    left: 51vh;
+  
+  }
+}
+@media screen and (min-width:1024px) and (max-width:1441px){
+  .bg-footer-svg {
+    background-size: 96%;
   }
 }
