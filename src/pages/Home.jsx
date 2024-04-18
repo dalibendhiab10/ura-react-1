@@ -31,10 +31,10 @@ const Home = ({ PageTitle }) => {
         <OurProcess />
       </div>
       <OurCompany />
-      {/* <div className='mt-40 md:mt-16'>
+      <div className='mt-40 md:mt-16'>
 
         <Footer />
-      </div> */}
+      </div>
     </>)
 }
 
