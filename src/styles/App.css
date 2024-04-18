@@ -60,7 +60,7 @@
    @apply pb-4;
   }
 }
-/* @media screen and (min-width:769px) and (max-width:1024px) {
+@media screen and (min-width:769px) and (max-width:1024px) {
   .svg-potion-laptop {
     top: 22vh;
     left: 23vh;
@@ -85,4 +85,4 @@
     height: 50px;
   }
 
-} */
+}
