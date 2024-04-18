@@ -480,21 +480,19 @@
 }
 
 .bg-footer-svg {
-  background-image: url('./footerSvgs/laptop.svg');
-  background-repeat: no-repeat;
+  background: url('./footerSvgs/laptop.svg') no-repeat  center;
   background-size: 90%;
-  background-position: center;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .bg-footer-svg {
     background-size: 50%;
   }
 }
 
-@media (min-width: 601px) and (max-width: 1200px) {
+@media (min-width: 601px) and (max-width: 1020px) {
   .bg-footer-svg {
     background-size: 98%;
   }
 }
-
+ */
