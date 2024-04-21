@@ -1,6 +1,6 @@
 .tabis{
   margin-right: 4vh;
-  width:1000px;
+  width: 1223px;
   border-radius: 80px;
   background-size: fit-content;
 
@@ -14,28 +14,28 @@
 }
 .moraba3{
   position: absolute;
-  bottom: 0.3%;
-  background-color: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(7.5px);
-  -webkit-backdrop-filter: blur(7.5px);
-  width: 378px;
-  height: 200px;
-  left: 4.5%;
-  border-radius: 56px 56px 0px 56px;
+    bottom: 0.3%;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    width: 383px;
+    height: 241px;
+    left: 3.7%;
+    border-radius: 56px 56px 0px 56px;
   /* border: 1px solid;
   
   border-color: linear-gradient(192deg, rgba(249,249,251,1) 0%, rgba(255,255,255,0) 100%); ; */
 }
 .mostatil{
   position: absolute;
-    bottom: 0%;
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(7.5px);
-    -webkit-backdrop-filter: blur(7.5px);
-    width: 577.124px;
-    height: 80px;
-    left: 42.3%;
-    border-radius: 0px 0px 58px 0px;
+  bottom: 0%;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  width: 795.124px;
+  height: 80px;
+  left: 35%;
+  border-radius: 0px 0px 58px 0px;
   /* border-top: 1px solid;
   border-top-color: aliceblue;   */
 }
@@ -89,10 +89,11 @@
   box-shadow: -100px 100px 0px 0px rgba(255, 255, 255, 0.1);
 }
 .container-corner{
+  transform: scale(1.2);
   position: absolute;
   overflow: hidden;
-  left: 423px;
-  top :255.1px;
+  left: 438px;
+  top: 337px;
   width: 100px;
   height: 100px;
   background-color: rgba(255, 255, 255, 0);

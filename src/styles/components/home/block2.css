@@ -11,9 +11,6 @@
     border-top-left-radius:61px;
     border-top-right-radius:61px;
     border-bottom-left-radius: 61px;
-    
-    
-
     @media(max-width: 1024px){
         width:47.625rem;
     }

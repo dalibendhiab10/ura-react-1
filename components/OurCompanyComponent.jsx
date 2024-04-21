@@ -3,10 +3,8 @@ const OurCompany = () => {
         <>
             {/* Container for PC to Tablet Version */}
             <div className="pc-tab-container bg-[#CBE8DE]">
-
                 <div className="company-container">
                     <button className="btn-company relative">Discover</button>
-
                     <svg viewBox="0 0 1320 570" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ width: "80%", height: "80%" }}>
                         <mask id="mask0_249_489" style={{ maskType: "alpha" }} maskUnits="userSpaceOnUse" x="0" y="0" width="1320" height="570">
                             <path d="M1240 570H450.779C423.164 570 400.779 547.614 400.779 520C400.779 492.386 423.164 470 450.779 470H480.389C524.357 470 560 434.357 560 390.389V343.5C560 299.317 524.183 263.5 480 263.5H80C35.8172 263.5 0 227.683 0 183.5V80C0 35.8172 35.8172 0 80 0H1240C1284.18 0 1320 35.8172 1320 80V490C1320 534.183 1284.18 570 1240 570Z" fill="#72BDA7" />

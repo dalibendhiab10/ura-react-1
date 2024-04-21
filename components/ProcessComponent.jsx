@@ -49,7 +49,7 @@ const OurProcess = () => {
     return (
         <div className="flex flex-col items-center mb-40"> {/* Centering the SVG container horizontally */}
             <p className='text-desc3 text-center pb-4'>Our Process</p>
-            <p className='text-h2 text-center pb-16 w-[80%]  desc-ourprocess'>Efficiently sourcing and delivering top-quality raw materials to
+            <p className='text-h2  text-center scale-75 pb-16 w-[80%]  desc-ourprocess'>Efficiently sourcing and delivering top-quality raw materials to
                 <br />top-quality chips</p>
 
             <div className="flex justify-center gap-4 btns-ourprocess ">
@@ -102,13 +102,13 @@ const OurProcess = () => {
                     style={{ position: "relative" }}
                 />
             </div>
+            <div className='w-40'>
             <button
-
-                className={`btn-color-main text-btn-main rounded-full w-max h-[40px] btn-discover-process mt-[60px] }`}
-
+            className={`btn-color-main text-btn-main rounded-full w-full h-[40px] btn-discover-process mt-[60px] }`}
             >
                 Discover
             </button>
+            </div>
         </div>
     );
 }

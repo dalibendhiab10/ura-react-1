@@ -5,6 +5,7 @@ import Block1_mob from '../../components/bloc1/firstblock-mob';
 import Block2 from '../../components/block2';
 import OurProcess from '../../components/ProcessComponent';
 import Footer from '../../components/FooterComponent';
+import Nikom_footer from '../../components/footer_tarchoun';
 import OurCompany from '../../components/OurCompanyComponent';
 import { useEffect } from 'react';
 
@@ -31,9 +32,9 @@ const Home = ({ PageTitle }) => {
         <OurProcess />
       </div>
       <OurCompany />
-      <div className='mt-40 md:mt-16'>
+      <div className='mt-[-1rem]'>
 
-        <Footer />
+      <Nikom_footer /> 
       </div>
     </>)
 }

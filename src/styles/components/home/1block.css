@@ -40,17 +40,17 @@
 }
 .button-placement{
     top:70%;
-    left: 11.5%
+    left: 11.9%
 }
 .text-big {
     top: 30%;
-    left: 11.5%;
+    left: 11.9%;
     font-size: 3.5vw; /* Responsive font size based on viewport width */
     line-height: 1.2; /* Adjust line height as needed */
 }
 .text-small {
     top: 60%;
-    left: 11.5%;
+    left: 11.9%;
     font-size: 1.5vw; /* Responsive font size based on viewport width */
     line-height: 1.2; 
 }

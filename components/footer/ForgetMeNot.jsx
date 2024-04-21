@@ -12,7 +12,6 @@ const Forget = () => {
                         <br />Sadovaya 10, room 1,
                     </p>
                 </div>
-
             </div>
             <div className="footer-left flex flex-col gap-y-4 m-l-8rem pt-[4%] forgot-tab">
                 <p className="footer-title text-main-color">Forget-Me-Not</p>
