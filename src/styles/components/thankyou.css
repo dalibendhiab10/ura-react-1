@@ -1,0 +1,184 @@
+.thankyou-page-pc {
+  background: url("./errorSvgs/error-laptop.svg") no-repeat center center;
+  background-size: 80%;
+}
+.thankyou-page-pc-container {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.thankyou-page-pc-code {
+  font-size: 200px;
+  font-weight: 600;
+  line-height: 240px;
+  text-align: left;
+  width: 344px;
+  height: 240px;
+}
+.thankyou-page-pc-title {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  width: 370px;
+  height: 156px;
+
+}
+.thankyou-page-pc-message {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33.6px;
+  letter-spacing: -0.015em;
+  text-align: left;
+
+  width: 404px;
+  height: 68px;
+}
+.no-message-title {
+  width: 30vw;
+  margin-top: 10%;
+  margin-left: 5%;
+
+}
+.with-message {
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+.thankyou-page-phone {
+  display: none;
+}
+.thankyou-page-pc-container{
+  transform: scale(1);
+}
+
+@media  screen and (min-width:2500px){
+  .thankyou-page-pc-container{
+    transform: scale( 1.8) !important;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+  .thankyou-page-pc-container{
+    transform: scale(0.75)!important;
+  }
+}
+@media screen and (max-width:768px) and (min-width: 426px) {
+  .thankyou-page-pc-title {
+    width: 43%;
+    height: 110px;
+  }
+  .thankyou-page-pc-container{
+    transform: scale( 0.57) !important;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .thankyou-page-pc {
+    display: none !important;
+  }
+  .thankyou-page-phone {
+    background: url("./errorSvgs/error-mobile.svg") no-repeat center center;
+    background-size: 90%;
+    display: block !important;
+  }
+
+  .main-page-btn-phone-nomessage{
+    width:50vh
+  }
+}
+.thankyou-page-phone-code {
+  font-size: 140px;
+  font-weight: 600;
+  line-height: 240px;
+  text-align: left;
+  width: 314px;
+  height: 210px;
+}
+.thankyou-page-phone-title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+ 
+}
+.main-page-btn-phone {
+  margin-left: 23vw;
+  margin-bottom: 4%;
+}
+.container-mob-text {
+  width: 80%;
+  margin-left: 9vh;
+}
+
+.with-no-message-phone {
+  position: relative;
+  top: -18%;
+  margin: 0 !important;
+  left: 0vh !important;
+  width: 100%;
+}
+.phone-code-nomessage {
+  top: -53px !important;
+}
+.title-nomessage {
+  position: relative;
+  top: 54% !important;
+  @media screen and (min-width: 321px) and (max-width: 424px) {
+    top: 100% !important;
+  }
+}
+.main-page-btn-phone-nomessage {
+  margin-left: 20vw;
+  margin-bottom: 13%;
+
+}
+.text-btn-phone {
+  @apply gap-16;
+}
+/* Mobile S */
+@media screen and (max-width:320px) {
+  .container-mob-text{
+    transform: scale(0.8);
+  }  
+  .thankyou-page-pc-title{
+    height: 100px!important;
+  }
+  .btn-thankyou{
+    
+      position: relative;
+      left: 30vw;
+  
+  }
+  .container-mob-text  {
+    position: relative;
+    top:0
+  }
+}
+/* mobile M */
+@media screen and (min-width:321px) and (max-width:376px) {
+  .thankyou-page-pc-title{
+    height: 102px!important;
+  }
+  .thankyou-page-phone-message {
+    width: 50vh;
+
+  }
+  .btn-thankyou {
+    position: relative;
+    left: 18vh!important;
+    top: 2vw!important;
+}
+}
+/* mobile L */
+@media screen and (min-width:376px) and (max-width:426px) {
+  .btn-thankyou{
+    position: relative;
+    left: 24vw!important;
+  }
+  .thankyou-page-pc-title{
+    height: 102px!important;
+  }
+}

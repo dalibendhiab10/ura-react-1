@@ -21,14 +21,14 @@ function Bar({ pathname }) {
         setIsOpen(!isOpen)
     }
     useEffect(() => {
-        if (pathname === '/') {
-            setBackground(true);
-        }
-        else {
+        if (pathname === '/products') {
             setBackground(false);
         }
+        else {
+            setBackground(true);
+        }
 
-    }, [pathname]);
+    }, [pathname,Background]);
 
     return (
         <div>

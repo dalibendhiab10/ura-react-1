@@ -8,6 +8,7 @@
   background-color: #f0f9f5;
   margin: 0;
   padding: 0;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
   font-family: "Urbanist", sans-serif;
 }
 
@@ -45,3 +46,5 @@
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
+
+

@@ -16,6 +16,9 @@
 /* Product Page */
 @import url("./components/product/product.css");
 
+/* Error Page */
+@import url("./components/error.css");
+@import url("./components/thankyou.css");
 .union-icon {
   align-self: stretch;
   position: relative;

@@ -33,7 +33,7 @@ const Contactus = () => (
             <p className="text-desc3  text-white opacity-80  contact-usdesc3 ">
                 Our team of experts is always at the service of our clients.
             </p>
-            <button className="btn-color-main  text-btn-main rounded-full contact-us-button">Contact us</button>
+            <button className="btn-color-main  text-btn-main rounded-full contact-us-button btn-home">Contact us</button>
 
         </div>
     </>
